@@ -1,0 +1,146 @@
+Predicted missing items
+========================
+
+Built by looking for name patterns already in items.json (material/adjective
++ item type) and finding gaps in the set. This is inference from names/slots
+we already have on file, not a guess at stats — no screenshots were opened
+for this beyond what came through the inbox, so treat these as "things to
+watch for in the inbox," not confirmed items.
+
+Last updated: 2026-07-14, after cross-referencing items.json against a "Used
+Weapons Dealer" vendor's full sell list (name + price only, no stats — see
+To-Do/items-needing-text.txt for the confirmed-but-dataless items this
+revealed). items.json had grown substantially since the 2026-07-02 version of
+this section below, so most of that version's "probable missing" Copper/Steel
+guesses turned out to already be filled in independently — this rewrite
+reflects current reality rather than patching the stale numbers in place.
+
+HIGH CONFIDENCE — weapon material tiers
+----------------------------------------
+The base template is an ~18-weapon set: Axe, Battle Axe, Dagger, Great
+Scythe, Greatsword, Kite Shield, Long Spear, Longsword, Mace, Maul, Scimitar,
+Scythe, Shortsword, Spear, Tower Shield, Trident, War Lance, Warhammer.
+Corroded Bronze and (plain) Rusty both now have confirmed complete/near-
+complete sets, so any tier missing pieces from this list is a good bet to
+still get them eventually. Current per-tier status (2026-07-14):
+
+  Copper:         only Long Spear still unconfirmed/missing. Everything else
+                  in the template has an items.json entry (Greatsword and
+                  Tower Shield were the last 2, vendor-confirmed to exist
+                  2026-07-14 but still need a real card — see
+                  items-needing-text.txt).
+  Steel:          has Axe, Battle Axe, Longsword, Maul, Scimitar, Scythe, War
+                  Lance. Still just a prediction (not vendor-confirmed) that
+                  it also has: Dagger, Great Scythe, Greatsword, Long Spear,
+                  Shortsword, Trident.
+  Corroded Bronze: essentially the full 18-piece template, confirmed via the
+                  same vendor batch — the last 4 (Mace, Spear, War Lance,
+                  Warhammer) have no items.json entry yet (see
+                  items-needing-text.txt).
+  Iron (plain):   only Axe has an items.json entry; the vendor batch
+                  confirmed 9 more exist (Dagger, Great Scythe, Longsword,
+                  Mace, Scythe, Shortsword, Spear, Trident, War Lance) with no
+                  entry yet — see items-needing-text.txt. Kite Shield,
+                  Greatsword, Long Spear, Maul, Scimitar, Tower Shield,
+                  Warhammer are still unconfirmed for this tier.
+  Bronze (plain, distinct from Corroded Bronze): a brand new tier, first seen
+                  2026-07-14 — vendor-confirmed 14 of the 18 template pieces
+                  (Axe, Battle Axe, Dagger, Great Scythe, Greatsword,
+                  Longsword, Mace, Maul, Scimitar, Scythe, Shortsword,
+                  Trident, War Lance, Warhammer), none with an items.json
+                  entry yet. Kite Shield, Long Spear, Spear, Tower Shield
+                  unconfirmed for this tier so far.
+  Rusty (plain):  has almost the full template already (16 of 18). Only
+                  Longsword and Mace are still missing an entry — the vendor
+                  batch re-confirmed both exist (matches the pre-existing
+                  items-needing-text.txt note). Rusty Throwing Dagger (a
+                  19th, non-template piece) is also still missing an entry.
+  Rusty Iron:     a brand new tier, first seen 2026-07-14 — vendor-confirmed
+                  17 of the 18 template pieces (everything except Tower
+                  Shield). None have an items.json entry yet — see
+                  items-needing-text.txt. This is the "Rusty Iron" component
+                  named in the Blacksmithing repair-chain note elsewhere in
+                  CLAUDE.md, now confirmed to be a full wearable/wieldable
+                  gear tier in its own right, not just a salvage-recipe
+                  ingredient name.
+  Rusty Steel:    a brand new tier, confirmed complete (all 18 template
+                  pieces seen via the same vendor batch, 2026-07-14). None
+                  have an items.json entry yet — see items-needing-text.txt.
+  Tarnished (plain): the Blacksmithing repair-chain's finished-gear tier
+                  (see the existing repair-chain note elsewhere in
+                  CLAUDE.md) is a real wieldable gear tier, not just a
+                  recipe-result name — 15 of 18 template pieces vendor-
+                  confirmed 2026-07-14 (missing Kite Shield/Long Spear/Tower
+                  Shield sightings so far). Material-specific variants also
+                  exist (Tarnished Bronze Longsword/War Lance/Warhammer,
+                  Tarnished Iron Greatsword confirmed so far) — watch for
+                  more "Tarnished [Material] [Weapon]" combinations. None of
+                  these have an items.json entry yet.
+
+Standalone weapons/shields with no material prefix at all — Bow, Buckler,
+Kite Shield, Recurve Bow — were also vendor-confirmed 2026-07-14 with no
+items.json entry yet (Longbow already has one). Not part of the material-tier
+pattern above; see items-needing-text.txt.
+
+MEDIUM CONFIDENCE — armor slot gaps within a material line
+-------------------------------------------------------------
+Three separate "starter tier" armor lines exist (Rawhide, Tattered Wool,
+Tattered Hide) — confirmed distinct because Tattered Hide Mask/Gorget have
+different AC than Rawhide Mask/Gorget despite matching slot/weight/class,
+so these are not naming inconsistencies for the same items.
+
+  Rawhide (7 slots):        Waist, Feet, Wrist, Hands, Neck, Face, Shirt
+  Tattered Wool (6 slots):  Head, Shoulders, Chest, Wrist, Hands, Shirt
+  Tattered Hide (4 slots):  Head, Face, Neck, Shirt
+
+Cross-referencing the three, the slots most likely to have a missing piece
+in each line (i.e. covered by at least one other line but not this one):
+  - Rawhide is missing:       Head, Chest, Shoulders
+  - Tattered Wool is missing: Waist, Feet, Neck, Face
+  - Tattered Hide is missing: Waist, Feet, Wrist, Hands, Shoulders, Chest
+    (only 4 confirmed pieces so far, so this is the least certain of the
+    three — could just mean fewer of this tier have been screenshotted yet)
+
+Corroded Bronze also has two 2-piece armor sub-lines that may not be
+complete: "Plate" (Boots/Feet, Collar/Neck) and "Chain" (Gloves/Hands,
+Waistguard/Waist). Copper has one Plate piece (Breastplate/Chest) under a
+different naming style ("Enchanted Copper Plate Breastplate"), so the
+Copper/Steel Plate and Chain sub-lines may also be broader than what we
+have — lower confidence than the weapon list since we only have 1-2 data
+points per tier here, not a full template to compare against.
+
+LOW CONFIDENCE — noted, not enumerated
+-----------------------------------------
+- Jewelry follows an "Inlaid [Gem] [Metal] [Ring|Earring]" pattern (gems
+  seen: Black Pearl, Cat's Eye Agate, Malachite; metals seen: Copper, Iron,
+  Silver). Combinations not yet seen probably exist, but the combo space is
+  large enough that listing them out would be guessing rather than
+  inferring — just flag new Ring/Earring screenshots as likely part of this
+  family rather than assuming a specific missing combo.
+- RESOLVED 2026-07-14 (moved out of low confidence): the "Fine Wood
+  Worn/Cracked" question above is answered — it's not a per-item coin flip.
+  A vendor's sell list confirmed the same Bow/Buckler/Great Staff = "Worn",
+  (non-great) Staff = "Cracked" split holds across 4 parallel materials now
+  (plain, Fine Wood, Elderwood, Ironbark): Worn Bow/Buckler/Great Staff,
+  Worn Fine Wood Bow/Buckler/Great Staff, Worn Elderwood Bow/Buckler/Great
+  Staff, Worn Ironbark Bow/Buckler/Great Staff, and Cracked
+  Staff/Fine Wood Staff/Elderwood Staff/Ironbark Staff — 16 items forming a
+  clean 4-material x 4-type grid with the condition word fixed per type, not
+  per material. Several of these still have no items.json entry yet (see
+  To-Do/items-needing-text.txt) but the naming pattern itself is now
+  confirmed, not a guess — watch for the same "Worn Bow/Buckler/Great Staff
+  + Cracked Staff" quartet on any new material that shows up.
+
+This file should be revisited whenever a batch of inbox items is processed —
+cross the item off here if it turns out to match, or add newly-discovered
+material/type patterns to the templates above.
+
+2026-07-14 note: a vendor's buy/sell list (name + price only, no stats) confirmed the
+Tattered Cloth armor line is a complete, closed 13-piece set (Belt, Boots, Bracer, Cap,
+Cape, Gloves, Gorget, Mantle, Pantaloons, Robe, Shirt, Tunic, Veil) — unlike the
+Rawhide/Tattered Wool/Tattered Hide tiers above, this one didn't need inference since the
+vendor list itself ran gap-free from Belt through Veil alphabetically. 4 of the 13 have no
+items.json entry yet (see To-Do/items-needing-text.txt); the other 9 already did. Not
+directly relevant to the Rawhide/Tattered Wool/Tattered Hide predictions above (different
+material tier entirely), but recorded here since it's the same "starter armor tier" shape
+this file already tracks.

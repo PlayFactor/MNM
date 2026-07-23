@@ -1,0 +1,45 @@
+Crafted items missing all or part of their components
+=========================================
+
+Tracks crafting.json recipes with no `components` list at all (or, for the two flagged
+below, a full card but the components still missing). Most of these are minimal entries
+seeded from a crafting-window screenshot (name/tradeskill/difficulty/listOrder only) —
+per CLAUDE.md, a real recipe card fills in weight/size/components/image later. This file
+exists so a future recipe-card screenshot can be matched back to what's still missing.
+
+Full card but components still missing (1):
+
+- Tailoring — Cloth Satchel (has image, weight 0.5, size Medium)
+
+(Enchanting's "Enchant Chest: Minor Health" was in this list until 2026-07-16, when a
+recipe-card screenshot from the large Enchanting batch confirmed its components:
+7x Enchanted Powder, 1x Mote of Magic.)
+
+Stub entries — no card at all yet (name/tradeskill/difficulty only), 95:
+
+Enchanting (1): Enchant Belt: Minor Electric Resistance — name/color/skill confirmed via a
+crafting-window screenshot from the same 2026-07-16 batch, but no recipe card has come in
+for it yet.
+
+Tailoring (13): Bolt of Cloth, Cloth Padding, Bat Fur Braid, Fine Cloth Bracer, Fine Cloth
+Gorget, Fine Cloth Cape, Fine Cloth Gloves, Cloth Pouch, Fine Cloth Belt, Fine Cloth Veil,
+Fine Cloth Boots, Enchanted Bolt of Cloth, Fine Cloth Cap
+
+Fletching (15): Arrow x100, Arrow x500, Bow, Buckler, Stonehead Arrow x100, Stonehead
+Arrow x1000, Stonehead Arrow x500, Longbow, Copperhead Arrow x100, Copperhead Arrow
+x1000, Copperhead Arrow x500, Bronzehead Arrow x100, Bronzehead Arrow x1000, Bronzehead
+Arrow x500, Recurve Bow
+
+Jewelcrafting (59): Copper Mounting, Copper Setting, Copper Wire, and 28 "Inlaid <Gem>
+Copper Ring" recipes + 28 matching "Inlaid <Gem> Copper Earring" recipes (one ring/earring
+pair per known gem: Black Sapphire, Bloodstone, Carnelian, Cat's Eye Agate, Diamond,
+Emerald, Hematite, Lapis Lazuli, Onyx, Opal, Peridot, Sapphire, Topaz, Amber, Black Pearl,
+Blue Diamond, Fire Emerald, Fire Opal, Jacinth, Jade, Jasper, Malachite, Pearl, Ruby, Star
+Rose Quartz, Star Ruby, Turquoise, Wolf's Eye Agate)
+
+Smelting (7): Copper Scraps x4, Tin Scraps x4, Bronze Scraps x4, Silver Scraps x4, Iron
+Scraps x4, Gold Scraps x4, Steel Scraps x4
+
+Not flagged: every other recipe in crafting.json (including every recipe with a `note`
+field, e.g. Tanning's vat-processing entries and Disenchanting's salvage recipes) already
+has a real `components` list from an actual card or reference table.

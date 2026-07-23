@@ -1,0 +1,32 @@
+[
+  { "category": "Primary Stats", "gem": "Amber", "stats": ["STR", "STA"], "wyrmsbaneTurnIn": true },
+  { "category": "Primary Stats", "gem": "Black Pearl", "stats": ["AGI", "DEX"] },
+  { "category": "Primary Stats", "gem": "Black Sapphire", "stats": ["STR", "AGI"] },
+  { "category": "Primary Stats", "gem": "Bloodstone", "stats": ["STA", "INT"] },
+  { "category": "Primary Stats", "gem": "Carnelian", "stats": ["WIS", "CHA"] },
+  { "category": "Primary Stats", "gem": "Cat's Eye Agate", "stats": ["INT", "CHA"] },
+  { "category": "Primary Stats", "gem": "Fire Emerald", "stats": ["STR", "DEX"] },
+  { "category": "Primary Stats", "gem": "Hematite", "stats": ["DEX", "INT"] },
+  { "category": "Primary Stats", "gem": "Pearl", "stats": ["STA", "DEX"] },
+  { "category": "Primary Stats", "gem": "Peridot", "stats": ["STA", "WIS"] },
+  { "category": "Primary Stats", "gem": "Ruby", "stats": ["STR", "WIS"] },
+  { "category": "Primary Stats", "gem": "Star Rose Quartz", "stats": ["WIS", "INT"], "wyrmsbaneTurnIn": true },
+  { "category": "Primary Stats", "gem": "Star Ruby", "stats": ["DEX", "CHA"] },
+  { "category": "Primary Stats", "gem": "Lapis Lazuli", "stats": ["WIS", "COR"] },
+
+  { "category": "HP & MP", "gem": "Jade", "stats": ["HP", "MP"] },
+  { "category": "HP & MP", "gem": "Jasper", "stats": ["WIS", "MP"], "wyrmsbaneTurnIn": true },
+  { "category": "HP & MP", "gem": "Fire Opal", "stats": ["AC", "HP"], "wyrmsbaneTurnIn": true },
+  { "category": "HP & MP", "gem": "Sapphire", "stats": ["INT", "MP"] },
+
+  { "category": "Resists", "gem": "Diamond", "stats": ["CR", "COR", "DR", "ER", "FR", "MR", "PR"] },
+  { "category": "Resists", "gem": "Wolf's Eye Agate", "stats": ["MR"] },
+  { "category": "Resists", "gem": "Emerald", "stats": ["CHA", "FR"] },
+  { "category": "Resists", "gem": "Malachite", "stats": ["STR", "PR"] },
+  { "category": "Resists", "gem": "Onyx", "stats": ["STR", "ER"] },
+  { "category": "Resists", "gem": "Opal", "stats": ["CHA", "DR"] },
+  { "category": "Resists", "gem": "Topaz", "stats": ["WIS", "DR"] },
+  { "category": "Resists", "gem": "Blue Diamond", "stats": ["HP", "MP", "CR", "COR", "DR", "ER", "FR", "MR", "PR"] },
+  { "category": "Resists", "gem": "Turquoise", "stats": ["AC", "CR"] },
+  { "category": "Resists", "gem": "Jacinth", "stats": ["AC", "MR"] }
+]

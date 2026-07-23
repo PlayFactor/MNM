@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Wiki</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-content">
+      <h1 class="splash-title">Welcome to Petrichor's Monsters and Memories Wiki</h1>
+      <button type="button" id="splash-enter-btn" class="splash-enter-btn">Enter</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="site-title" id="site-title">Game Wiki</a>
+      <div class="header-search">
+        <input type="search" id="search-box" placeholder="Search pages..." autocomplete="off">
+        <button type="button" class="items-clear-btn search-clear-btn" data-clear-target="search-box">Clear</button>
+        <div id="search-results" class="search-results"></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar">
+      <!-- Page list gets built here automatically by script.js -->
+      <p class="sidebar-loading">Loading pages...</p>
+    </nav>
+
+    <main class="content" id="content">
+      <div class="content-inner" id="content-inner">
+        <p>Loading...</p>
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>Background art used with permission — see the <a href="https://monstersandmemories.com/media" target="_blank" rel="noopener">official Monsters and Memories media page</a>.</p>
+    <p class="site-footer-note">I know what I want, but not how to do it — Made with the help of Claude.</p>
+  </footer>
+
+  <!-- marked.js turns Markdown files into HTML in the browser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

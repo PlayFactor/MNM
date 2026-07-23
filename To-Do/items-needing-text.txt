@@ -1,0 +1,291 @@
+Items with missing information
+=========================================
+
+Tracks items.json entries that are missing data (not screenshot cropping — the site
+renders cards from items.json, not the screenshot, so only missing data matters).
+
+2026-07-15, second vendor sweep: a large batch of Used Weapons Dealer/Plate Armorer/
+Weaponsmith/gem-vendor screenshots (name + price only, no stat cards) added ~185 more
+`needsInfo: true` placeholder entries, following the exact same pattern as the batch below —
+minimal safely-inferable fields only (type/slot/skill/twoHanded for weapons by matching an
+established same-name-pattern sibling; type/slot only for armor by the piece-type-implies-
+slot convention, e.g. every "Chain Coif" across every material tier is Head; nothing at all
+beyond type for raw materials). Notable new discoveries this sweep, none with any stat data
+yet: a full "Chain" armor line (Boots/Cloak/Coif/Gambeson/Gloves/Gorget/Leggings/Mask/
+Shoulderguards/Tunic/Waistguard/Wristguard) across Copper/Bronze/Corroded Bronze/Iron/Rusty
+Iron/Rusty Steel/Tarnished Bronze/Tarnished Iron tiers; a parallel full "Plate" armor line
+(Arming Doublet/Boots/Bracer/Breastplate/Cloak/Collar/Gauntlets/Girdle/Greaves/Helm/
+Pauldrons/Visor) across the same tiers; three raw-gem quality tiers (Chipped/Flawed/
+Imperfect) across ~15 gem types each; and scrap/ore/bar smelting materials (Iron/Copper/
+Gold/Silver/Tin Scraps, Gold/Silver/Tin/Pyrite Ore, Gold/Silver/Tin Bar). "Gambeson"/"Arming
+Doublet" were both mapped to the Shirt slot (the padded under-armor layer, distinct from the
+Chest-slot Tunic/Breastplate worn over it) — an inference from the pattern, not a confirmed
+card, flag if it turns out wrong. A few gaps caught late from the *first* sweep were folded
+in here too: Copper War Lance, Iron Battle Axe, and Iron Scimitar were vendor-confirmed
+twice over but had been missed when the first batch was written up.
+
+2026-07-15: everything below that was vendor-confirmed-but-dataless now has a real
+items.json entry (name/type/slot/skill/twoHanded only, where safely inferable from the
+weapon-type name — never damage/delay/weight/size/AC/classes/race, since none of that was
+ever confirmed) with `"needsInfo": true`. That flag makes the item card show a red "This
+item needs more info" note linking to the Submit-a-Screenshot page, and the Item Database
+table shows a red "NEEDS INFO" badge next to the name — so these are now browsable/
+searchable on the site, just visibly flagged as incomplete. The entries below are still a
+correct list of exactly which items need a real screenshot; "no items.json entry yet" in
+the older notes just means "no full entry with real stats yet," not "not on the site at all."
+
+- Corrupted Leather Cloak, Robe, Bracer, Belt, Gloves, Boots — drops on "the corrupted
+  ashira" (monsters.json). Only minimal needsInfo:true stubs in items.json (name/slug/type/
+  tags, plus slot where the piece-type name made it safe to infer — Robe's slot varies too
+  much across other tiers to guess) — no real card has come in yet with Weight/Size/AC/
+  stats. Cap and Shoulderpads (also from this drop list) got real cards on 2026-07-17 and
+  now have full entries, so they're off this list.
+- Corrupted Leather Scraps — RESOLVED 2026-07-15, added to items.json (SV Corruption: -5,
+  weight 0.5, size Small) once a real card came in.
+- Lunar Festival Trousers — missing `race`. Screenshot cuts off right after Class, no
+  "Race:" line visible; every other armor card in its batch had one, so this is likely a
+  crop issue rather than a real absence. Update if a fuller screenshot comes in.
+- Rusty Throwing Dagger, Rusty Longsword, Rusty Mace — the last 3 of the 18-piece Rusty
+  set with no items.json entry yet (name inferred from the set's naming pattern, no stats
+  confirmed). Every other Rusty piece already has a full card.
+- Tattered Cloth Belt, Tattered Cloth Cape, Tattered Cloth Mantle, Tattered Cloth Tunic —
+  confirmed to exist 2026-07-14 via a vendor's sell-back list (name + price only, no
+  weight/size/AC), completing the Tattered Cloth armor line at 13 pieces total (the other 9
+  — Bracer, Cap, Gloves, Gorget, Pantaloons, Robe, Shirt, Boots, Veil — already have full
+  items.json entries). No items.json entry yet for these 4 until a real in-game card comes in.
+- Fine Cloth Cape — confirmed to exist 2026-07-14 via a vendor's buy list (name + price
+  only). Every other Fine Cloth slot already has an entry; no items.json entry yet for this one.
+- Patched Cloth Tunic — confirmed to exist 2026-07-14 via a vendor's buy list (name + price
+  only). Every other Patched Cloth slot already has an entry; no items.json entry yet for
+  this one.
+- Rugged Spider Silk Mantle — confirmed to exist 2026-07-14 via a vendor's buy list (name +
+  price only), a second piece of the Rugged Spider Silk armor tier alongside the existing
+  "Rugged Spider Silk Cap" entry. No items.json entry yet.
+- Tailoring raw materials/tools, all confirmed to exist 2026-07-14 via vendor buy/sell lists
+  (name + price only, no weight/size) — none of these have an items.json entry at all yet:
+  Spider Silk, Tough Spider Silk, Sturdy Spider Silk, Rugged Spider Silk (the raw material,
+  distinct from the armor pieces above), Heavy Thread, Light Thread, Rough Thread, Satin
+  Thread, Cloth Bandage, Heavy Cloth Bandage, Wool Bandage, Heavy Wool Bandage, Cotton
+  Bandage, Crude Handmade Torch, Handmade Torch, Tailoring Kit. (Cloth Bandage/Heavy Cloth
+  Bandage/Wool Bandage/Heavy Wool Bandage/Cotton Bandage and the two Handmade Torch variants
+  also appeared as Survival-tradeskill recipe names in the same batch, at Survival skill
+  6/140. 2026-07-15: added to crafting.json as 7 minimal recipe entries — name, slug,
+  tradeskill, difficultyColor, observedAtSkill: 6, `needsInfo: true` — same treatment as the
+  needsInfo items above: a red "needs more info" note + Submit-a-Screenshot link shows
+  directly on the recipe card, no image/weight/components until a real recipe card comes in.)
+- A "Used Weapons Dealer" vendor's full sell list, confirmed to exist 2026-07-14 (name +
+  price only, no stats) — see To-Do/predicted-missing-items.txt's "HIGH CONFIDENCE" section
+  for how these fit into each material tier's overall pattern:
+  - Bronze (plain, distinct from the existing "Corroded Bronze" tier — brand new material
+    tier, no items.json entry for any piece yet): Axe, Battle Axe, Dagger, Great Scythe,
+    Greatsword, Longsword, Mace, Maul, Scimitar, Scythe, Shortsword, Trident, War Lance,
+    Warhammer.
+  - Rusty Iron (brand new material tier, no items.json entry for any piece yet): Axe, Battle
+    Axe, Dagger, Great Scythe, Greatsword, Kite Shield, Long Spear, Longsword, Mace, Maul,
+    Scimitar, Scythe, Shortsword, Spear, Trident, War Lance, Warhammer.
+  - Iron (plain) — Iron Axe already has an entry; these 9 don't yet: Dagger, Great Scythe,
+    Longsword, Mace, Scythe, Shortsword, Spear, Trident, War Lance.
+  - Corroded Bronze — already mostly complete in items.json; these 4 don't have an entry
+    yet: Mace, Spear, War Lance, Warhammer.
+  - Copper — already mostly complete in items.json; these 2 don't have an entry yet:
+    Greatsword, Tower Shield.
+  - Rusty (plain) — Longsword and Mace, the same 2 already flagged above, were directly
+    re-confirmed by this vendor (still no entry).
+  - Standalone, no material prefix, no entry yet: Bow, Buckler, Garrison Bulwark Shield,
+    Grave Marker, Kite Shield, Recurve Bow. ("Hammer and Chisel" also appeared on this
+    vendor's list — it's the existing Blacksmithing salvage-recipe tool component referenced
+    throughout crafting.json, still with no items.json item entry of its own; Longbow already
+    has an entry.) "Grave Marker" in particular has an unclear category (possibly a quest or
+    decorative item, not gear) — flag rather than assume when a real card comes in.
+    (Note: "Cracked Elderwood Staff" also appeared on this vendor's list but turned out to
+    already have an items.json entry — not actually missing, corrected after an initial
+    misread of the cross-reference.)
+- The same vendor's list continued further (still 2026-07-14, name + price only, no stats):
+  - Rusty Steel — a brand new material tier, confirmed as a complete 18-piece set (Axe,
+    Battle Axe, Dagger, Great Scythe, Greatsword, Kite Shield, Long Spear, Longsword, Mace,
+    Maul, Scimitar, Scythe, Shortsword, Spear, Tower Shield, Trident, War Lance, Warhammer),
+    none with an items.json entry yet.
+  - Tarnished (plain) — the finished-repair output tier named in the Blacksmithing
+    repair-chain note elsewhere in CLAUDE.md, now vendor-confirmed as an actual sellable/
+    wieldable gear tier, not just a recipe-result name. 15 pieces confirmed so far (Axe,
+    Battle Axe, Dagger, Great Scythe, Greatsword, Longsword, Mace, Maul, Scimitar, Scythe,
+    Shortsword, Spear, Trident, War Lance, Warhammer — Kite Shield/Long Spear/Tower Shield
+    not seen yet, unconfirmed whether they exist for this tier), none with an items.json
+    entry (the existing "Tarnished Tinker's Ring" is an unrelated Jewelcrafting item, not
+    part of this weapon tier).
+  - Tarnished Bronze Longsword, Tarnished Bronze War Lance, Tarnished Bronze Warhammer,
+    Tarnished Iron Greatsword — material-specific Tarnished repair outputs, confirmed to
+    exist, no items.json entry yet. Only these 4 combinations seen so far; watch for more
+    "Tarnished [Material] [Weapon]" names.
+  - Worn Elderwood Bow, Worn Elderwood Buckler, Worn Elderwood Great Staff, Worn Ironbark
+    Bow, Worn Ironbark Buckler, Worn Ironbark Great Staff, Worn Great Staff (plain, no
+    material) — confirmed to exist, no items.json entry yet. This resolves the old "Fine
+    Wood Worn/Cracked" question in To-Do/predicted-missing-items.txt: see that file's
+    updated note — it's not a per-item coin flip, every material has its Bow/Buckler/Great
+    Staff as "Worn" and its (non-great) Staff as "Cracked", confirmed across 4 materials now
+    (plain, Fine Wood, Elderwood, Ironbark).
+  - Salt-Crusted Hammer, Skinning Knife — new tool items, confirmed to exist, no items.json
+    entry yet. ("Scarab Shell Shield," also on this list, already has an entry.)
+
+2026-07-19, mnmdrops.com scrape: Broodmother Spider Fang (dropped by A Crypt Broodmother,
+Infested Crypt) — its source item-card image cuts off after the Class line (scrollbar
+visible, same cropped-card situation as items.json's earlier Maleq's Toothpick note), so
+`race` was left unset rather than guessed. Every other field on the card was fully visible
+and recorded.
+
+2026-07-19, mnmdrops.com scrape: Strig's Cuirass (dropped by Strig, Glinting Hollow) — its
+source card image ends right after the Class line with no Race shown at all (a directly
+user-submitted screenshot, not the site's own rendered item-card image the other drops on
+this page used) — `race` left unset rather than assumed ALL. Barkweave Mask (dropped by
+Thornbark, same zone) similarly showed no AC line on its card at all — `ac` left unset
+rather than guessed at 0.
+
+2026-07-19, mnmdrops.com scrape: Ring of the Razobrood (dropped by Braggla The Spawnkeeper,
+Grimtide Sanctum) — same cropped-card situation, Class line visible but no Race line —
+`race` left unset. Note also: two items on this same zone's mob pages were listed under a
+misspelled/wrong name on the mob's own drop-table page but the item's own card title (the
+authoritative source) gave the real name — recorded under the card's name, not the mob
+page's: "Stiched Scrap Vambraces" -> Stitched Scrap Vambraces, "Hyrdophone Drum" ->
+Hydrophone Drum, "Staff of the Drowned" -> Spear of The Drowned, "Whispering Veil" ->
+Whisperless Veil.
+
+2026-07-19, mnmdrops.com scrape, Scarwood zone: Voice of the Land Sabatons (dropped by Yurl
+Rootrender) — card shows a scrollbar with no Race line visible, `race` left unset. Thistlefire
+Lantern (dropped by Garran Grinholdt, real card title is singular though the mob page listed
+it plural) — card shows no Class/Race section at all despite having a real equip slot
+(Primary/Secondary/Belt), unlike the usual "no slot at all" case that skips these fields —
+`needsInfo: true` set instead of guessing ALL. Also two more mob-page-vs-card-title name
+mismatches, recorded under the card's own name: "Hunting Longow" -> Hunting Longbow.
+
+2026-07-19, mnmdrops.com scrape, Evershade Weald zone: three item cards (Grips of the Deep
+Enchantress / dropped by Misteress Naelira, Wanderer's Leggings / dropped by Scout Grimgaze,
+Encrusted Heartleaf Spangenhelm / dropped by A Small River Elemental) start their visible
+text right at the "Slot:" line with no MAGIC tag line above it — most likely cropped off the
+top of the screenshot rather than genuinely untagged, but left `tags: []` rather than
+assuming MAGIC since every other card in this same batch did show the tag clearly. Krindor's
+Wristguard (dropped by Scout Leader Krindor) and Black Widow Sickle (dropped by Tearesh
+Deathcharmer) both show a scrollbar with no Race line — `race` left unset on both; Krindor's
+Wristguard's Class line also looked one line short compared to the usual 14-class "everyone
+but casters" roster (missing RNG/ROG specifically) which may just be more of the same crop,
+so treat that class list as unconfirmed-complete too. Also one more mob-page-vs-card-title
+name mismatch: "Pranker's Briarbinds" -> Prankster's Briarbinds.
+
+2026-07-19, mnmdrops.com scrape, Keeper's Bight zone: several cards had a scrollbar cutting
+off the Race line (and in a few cases part of the Class line too) — `race` left unset on
+Leggings of Reckoning, Vest of Shattered Duty, Boots of Vengeful Resolve, Den Dweller's
+Boots, Cinch of the Forest Howler, Fur-Lined Gloves, and Ring of the Pauper (dropped by
+Fendris The Forsaken / Fendris The Forsaken / Poacher Garrus / Redpaw / Timberfang / Timberfang
+/ Widow Vethra respectively); Leggings of Reckoning and Cinch of the Forest Howler's Class
+lists may also be missing a trailing SHD/SHM/SPB that got cut off with the scrollbar. Also:
+Timberfang is the first mob in this whole scrape with a level actually given by mnmdrops.com
+("LEVEL 26" on its own drop page) — recorded as `levelRange: "26"` even though it's a
+community-submitted "suggested level" rather than the user's own con-color observation, so
+treat it as weaker than a normal levelRange entry if it's ever asked about.
+
+2026-07-19, images/inbox batch (Sungreet Strand, mnmdrops.com screenshots the user dropped
+in directly rather than direct navigation): several cards were cropped by the page's own
+layout (grid columns cut off at the right/bottom edge of the screenshot) rather than a
+scrollbar this time — `classes`/`race` left unset entirely (rather than guessed) on:
+Frightweaver Robe, Frightwoven Cape, Sphalerite Spider Figurine (all dropped by Frightweaver),
+Vindicator Breastplate (dropped by Balindor Silvertrowel — also missing weight/size),
+Vindicator Greaves (`race` only, dropped by Balindor Silvertrowel), River Pirate Sash
+(dropped by River Pirate Captain), Bent Staff of Nerguk / Cinder Beetle Horn (both dropped
+by their respective mobs — also missing `race` only), Blued Steel Long Sword (dropped by
+Elias Messing), Sneed's Ambush Treads (dropped by Tolman Sneed — `classes`/`race` unset,
+`needsInfo: true` set since the Class line itself was fully cut off this time, unlike the
+race-only cases). Sphalerite Spider Figurine's tags include "NORENT" — a tag not seen
+before on any other card in this wiki, recorded verbatim rather than assumed to be a typo
+for NODROP since the card image showed it clearly. Grudgeheft and Colorful Leather Vest
+arrived in the same screenshot batch with no monster-page header visible at all (cropped
+out) — both have full stats but **no known source monster or zone**; not linked from any
+monster's `drops` array — ask the user or wait for a fuller screenshot before assuming
+either one's source. Tolman Sneed's own zone page states "7 known drops" but only 6 distinct
+item names actually appeared on the card grid (mnmdrops.com's own site double-listed
+"Sneed's Ambush Treads" once under a apparently-mistyped second header "SNEER'S AMBUSH
+TREADS" showing the identical card) — treated as a site-side duplicate, not a real missing
+7th item, but flagging in case a real 7th item turns up later.
+
+Two items already in items.json got a fuller/corrected re-read from a cleaner screenshot in
+this same batch: Maleq's Toothpick (Shaded Dunes) had its damage (15->21), STR (+5->+6),
+added STA+2/HP+10, and resists (+3/+3->+5/+5) corrected, plus `race: ["ALL"]` added — the
+original entry came from an early, admittedly-cut-off scratchpad reading of the same card;
+this new screenshot showed the whole card cleanly with no scrollbar. Dizzik's Wicked Dagger
+(Sungreet Strand) was a bare `needsInfo` stub from an old vendor-listing sighting — filled in
+with damage/delay/skill/stats/resists/effect/description from this batch's card, `needsInfo`
+removed since it's now substantially documented, but `weight`/`size`/`classes`/`race` are
+still unknown (the card was cropped before those lines) — still worth a fuller capture later.
+
+2026-07-19, images/inbox batch: Vestments of Vakraar (Chest — user has since confirmed all
+three cards from this screenshot, including this one, drop from Servarator Vakraar in the
+Vale of Zintar orc caves; recorded in that monster's `drops` in monsters.json) had its card
+cut off by an in-game scrollbar right after the Class line — `race` left unset entirely
+rather than guessed `["ALL"]`, same as every other scrollbar-cropped card in this file. The
+other two cards from the same screenshot (Dustmaul Sash, Dustmaul Pauldrons) showed their
+full Class/Race lines with no cropping.
+
+One likely-real stat conflict, left unresolved per the "existing screenshot wins" rule:
+Bibic's Hunt Wraps already has a real saved screenshot (`images/items/bibics-hunt-wraps.jpg`)
+recording DEX+2/STA+2, but this batch's mnmdrops.com card showed STA+1 instead of STA+2 —
+kept the existing screenshot-sourced value untouched since it's a stronger source than an
+external wiki capture, but flagging the discrepancy in case the existing screenshot is ever
+worth re-checking.
+
+2026-07-19, mnmdrops.com re-check: Sungreet Strand grew one new mob since the earlier
+scrape (Vile Will, 1 drop: The Backup Plan). The Backup Plan's card showed a scrollbar
+with no Race line visible — `race` left unset rather than assumed ALL.
+
+2026-07-19, mnmdrops.com scrape, Vale Of Zintar zone: Bloodfang Scale Shield and Eye of
+Serpents (both dropped by Bloodfang) showed a scrollbar with no Race line — `race` left
+unset on both. Leather Bracer of Obedience (dropped by Dustrend Kennel Master) similarly
+had no Race line at all. This zone also had two more site-side duplicate-listing situations
+(same pattern as Mirella Nighthorn/Tolman Sneed from Sungreet Strand and Grimtide Sanctum):
+Dustrend Kennel Master's own drop table listed "Leather Bracer of Obedience" twice, and
+"Rami Al'qawwaas" exists as two separate mob-page records on mnmdrops.com (slugs
+rami-alqawwaas and rami-al-qawwaas) that are almost certainly the same in-game mob — all of
+Rami's drops from both pages were merged into the single existing "Rami Al-Qawwaasr" entry.
+Also merged newly-revealed, non-overlapping drops into three existing entries whose card
+already existed from an earlier session: Fernic the Cur (+Fernstep Greaves, +Ripped Leather
+Mask), Khal'Baar the Growler (+Driftwood Crown, +Paua Shell Earring), Servarator Vakraar
+(+The Final Word, +Vakraar's Dustveil Hoop) — in each case the mnmdrops.com page showed a
+different subset of that mob's real drops than what was already recorded, so both sets were
+kept rather than treated as a conflict. The Final Word's card was cut off by a scrollbar
+before Weight/Size/Class/Race — all four left unset.
+
+2026-07-22, mnmdrops.com scrape, Tel Ekir zone: Chain Splitting Axe (dropped by Animast Wafi)
+and Ashira Protector Axe (dropped by Ashir The Protector) both had no Race line visible;
+Ashira Protector Axe's card also showed no MAGIC tag at all, recorded as tags: []. Shield of
+the Protector (dropped by Ashir The Protector) was cut off before Class/Race entirely --
+`needsInfo: true` set since neither is known. Alchemist Bag (dropped by Ashira Alchemist,
+a generic mob) showed no Capacity/Maximum Size fields on its card at all despite being a
+container -- `needsInfo: true` set since capacity is unconfirmed. Orb of the Waning Waters
+(dropped by Guardian Of The Life Font, a generic mob) had its card almost entirely cut off,
+only the Slot line was visible -- `needsInfo: true`, no stats recorded at all.
+
+This zone also had two more "generic type name, not a personal name" mobs treated as
+non-named per the established convention (A Bloodynose Muralist / Bloodynose Muralist --
+two distinct generic variants with completely different drop tables, both added as separate
+non-named entries' worth of items but no monster record; An Ashira Fortune Teller; Ashira
+Alchemist; Guardian Of The Life Font) -- only their items were added, not monster entries.
+
+2026-07-22, mnmdrops.com scrape, Night Harbor zone: several existing named-monster entries
+(from an earlier session) turned out to only have a subset of their real drops recorded --
+merged in newly-revealed, non-overlapping items rather than treating as a conflict: a pale
+lieutenant (+Ironhide Bracers), Manciple Daphne (+Echo Stone), Victualler Veera (+Twilight
+Cap), Cormac Renshaw (+Seafarer's Hide Boots), Eamon Kassir (+Heartplate Scout Cap, +Sturdy
+Battle Axe). Echo Stone's card was cut off before Weight/Size/Class/Race -- `needsInfo: true`
+set. Sanguine Bat Tooth (dropped by the generic "A Sanguine Bat") had no Race line visible --
+left unset. Interrogator's Clasp (dropped by Darius Brask) had a green "Enchant Gloves:
+Lesser Agility" line on its card -- left out of the recorded data per the standing rule that
+an Enchant line is a one-off applied buff, not an intrinsic item property.
+
+Pasha's Favor is a genuinely unusual case: mnmdrops.com records it as a drop from a combined
+"Pasha Patrice/Aide Aida" encounter page (both must apparently be present/killed together),
+not from either mob's own individual page. Recorded on the item itself via a `note` field
+explaining this, and also listed under Pasha Patrice's own `drops` (the more prominent name
+in the pairing) so it's still discoverable from a monster page -- not listed under Aide
+Aida's drops too, to avoid implying it's a separate, fully-duplicated source.
+
+Generic "type-only name" mobs in this zone, items added without a monster entry per the
+established convention: A Pale Cook, A Pale Forman, A Pale Provisioner, A Robed Figure, A
+Sanguine Bat, An Infamous Swashbuckler, Majestic Skeleton, Ornate Beetle, Pale Senior,
+Unyeilding Brute.

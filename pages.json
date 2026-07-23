@@ -1,0 +1,11 @@
+[
+  { "title": "Useful Links", "file": "useful-links.md", "category": "Useful Links" },
+  { "title": "Item Database", "file": "items", "category": "Items", "type": "items" },
+  { "title": "Maps", "file": "maps", "category": "Maps", "type": "maps" },
+  { "title": "Gathering", "file": "gathering", "category": "Gathering", "type": "gathering", "group": "Tradeskilling" },
+  { "title": "Crafting", "file": "crafting", "category": "Crafting", "type": "crafting", "group": "Tradeskilling" },
+  { "title": "Named Monsters", "file": "monsters-named", "category": "Monsters", "type": "monsters", "group": "Monsters" },
+  { "title": "Regular Monsters", "file": "monsters-regular", "category": "Monsters", "type": "monsters", "group": "Monsters" },
+  { "title": "Companions", "file": "companions", "category": "Companions", "type": "companions" },
+  { "title": "Submit a Screenshot", "file": "submit", "category": "Contribute", "type": "submit" }
+]

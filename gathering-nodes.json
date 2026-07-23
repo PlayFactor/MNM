@@ -1,0 +1,505 @@
+[
+  {
+    "name": "Copper Vein",
+    "slug": "copper-vein",
+    "image": "images/gathering/copper-vein.jpg",
+    "tradeskill": "Mining",
+    "minSkill": 1,
+    "trivialSkill": 50,
+    "locations": ["Night Harbor (West Gate, North Gate)", "Shaded Dunes", "Evershade Weald", "Keeper's Bight"]
+  },
+  {
+    "name": "Rich Copper Vein",
+    "slug": "rich-copper-vein",
+    "image": "images/gathering/rich-copper-vein.jpg",
+    "tradeskill": "Mining",
+    "minSkill": 1,
+    "trivialSkill": 65,
+    "locations": ["Night Harbor (West Gate, North Gate)", "Shaded Dunes", "Evershade Weald", "Keeper's Bight"]
+  },
+  {
+    "name": "Limestone Deposit",
+    "slug": "limestone-deposit",
+    "image": "images/gathering/limestone-deposit.jpg",
+    "tradeskill": "Mining",
+    "minSkill": 40,
+    "trivialSkill": 75,
+    "locations": ["Fallen Pass (on cliffs)", "Shaded Dunes, on the way to Tel'Ekir", "Fallen Pass (atop the canyon)", "Sungreet Strand (atop the canyon above the pit)", "Scarwood"]
+  },
+  {
+    "name": "Rich Limestone Deposit",
+    "slug": "rich-limestone-deposit",
+    "tradeskill": "Mining",
+    "minSkill": 60,
+    "trivialSkill": 90,
+    "locations": ["Shaded Dunes", "Fallen Pass", "Scarwood"]
+  },
+  {
+    "name": "Tin Vein",
+    "slug": "tin-vein",
+    "image": "images/gathering/tin-vein.jpg",
+    "tradeskill": "Mining",
+    "minSkill": 75,
+    "trivialSkill": 125,
+    "locations": ["Sungreet Strand", "Vale of Zintar", "Scarwood"]
+  },
+  {
+    "name": "Rich Tin Vein",
+    "slug": "rich-tin-vein",
+    "image": "images/gathering/rich-tin-vein.jpg",
+    "tradeskill": "Mining",
+    "minSkill": 85,
+    "trivialSkill": 135,
+    "locations": ["Sungreet Strand", "Vale of Zintar", "Scarwood"]
+  },
+  {
+    "name": "Silver Vein",
+    "slug": "silver-vein",
+    "image": "images/gathering/silver-vein.jpg",
+    "tradeskill": "Mining",
+    "minSkill": 110,
+    "trivialSkill": 150,
+    "locations": ["Sungreet Strand", "Vale of Zintar", "Scarwood"]
+  },
+  {
+    "name": "Rich Silver Vein",
+    "slug": "rich-silver-vein",
+    "tradeskill": "Mining",
+    "minSkill": 110,
+    "trivialSkill": 160,
+    "locations": ["Sungreet Strand", "Vale of Zintar", "Scarwood"]
+  },
+  {
+    "name": "Iron Vein",
+    "slug": "iron-vein",
+    "tradeskill": "Mining",
+    "minSkill": 150,
+    "trivialSkill": 200,
+    "locations": ["Fallen Pass", "Glass Flats", "Shallow Shoals"]
+  },
+  {
+    "name": "Rich Iron Vein",
+    "slug": "rich-iron-vein",
+    "tradeskill": "Mining",
+    "minSkill": 165,
+    "trivialSkill": 210,
+    "locations": ["Fallen Pass", "Glass Flats", "Shallow Shoals"]
+  },
+  {
+    "name": "Gold Vein",
+    "slug": "gold-vein",
+    "tradeskill": "Mining",
+    "minSkill": 175,
+    "trivialSkill": 225,
+    "locations": ["Fallen Pass", "Glass Flats", "Shallow Shoals"]
+  },
+  {
+    "name": "Rich Gold Vein",
+    "slug": "rich-gold-vein",
+    "tradeskill": "Mining",
+    "minSkill": 190,
+    "locations": ["Fallen Pass", "Glass Flats", "Shallow Shoals"],
+    "note": "Trivial only given as a floor on the source table: \"225+\"."
+  },
+  {
+    "name": "Coal Vein",
+    "slug": "coal-vein",
+    "tradeskill": "Mining",
+    "minSkill": 225,
+    "trivialSkill": 275,
+    "locations": ["Fallen Pass", "Sungreet Strand (in the dwarf mines)"]
+  },
+  {
+    "name": "Rich Coal Vein",
+    "slug": "rich-coal-vein",
+    "tradeskill": "Mining",
+    "minSkill": 240,
+    "trivialSkill": 290,
+    "locations": ["Fallen Pass", "Sungreet Strand (in the dwarf mines)"]
+  },
+  {
+    "name": "Platinum Vein",
+    "slug": "platinum-vein",
+    "tradeskill": "Mining",
+    "minSkill": 250,
+    "locations": ["Fallen Pass"],
+    "note": "Trivial not yet known — the source table shows \"???\"."
+  },
+  {
+    "name": "Rich Platinum Vein",
+    "slug": "rich-platinum-vein",
+    "tradeskill": "Mining",
+    "minSkill": 260,
+    "locations": ["Fallen Pass"],
+    "note": "Trivial not yet known — the source table shows \"???\"."
+  },
+  {
+    "name": "Mithril Vein",
+    "slug": "mithril-vein",
+    "tradeskill": "Mining",
+    "locations": [],
+    "note": "Neither min skill nor trivial is known yet — the source table shows \"???\" for both."
+  },
+  {
+    "name": "Rich Mithril Vein",
+    "slug": "rich-mithril-vein",
+    "tradeskill": "Mining",
+    "locations": [],
+    "note": "Neither min skill nor trivial is known yet — the source table shows \"???\" for both."
+  },
+  {
+    "name": "Wood Pile",
+    "slug": "wood-pile",
+    "image": "images/gathering/wood-pile.jpg",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 1,
+    "trivialSkill": 35,
+    "results": ["Wood", "Resin"],
+    "locations": ["New Player Yards", "Sungreet Strand", "Shaded Dunes", "Evershade Weald", "Keeper's Bight"]
+  },
+  {
+    "name": "Rich Wood Pile",
+    "slug": "rich-wood-pile",
+    "image": "images/gathering/rich-wood-pile.jpg",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 1,
+    "trivialSkill": 50,
+    "results": ["Wood", "Resin"],
+    "locations": ["New Player Yards", "Sungreet Strand", "Shaded Dunes", "Evershade Weald", "Keeper's Bight"]
+  },
+  {
+    "name": "Fine Wood Pile",
+    "slug": "fine-wood-pile",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 50,
+    "trivialSkill": 85,
+    "results": ["Fine Wood", "Resin"],
+    "locations": ["Sungreet Strand", "Keeper's Bight"]
+  },
+  {
+    "name": "Rich Fine Wood Pile",
+    "slug": "rich-fine-wood-pile",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 50,
+    "trivialSkill": 100,
+    "results": ["Fine Wood", "Resin"],
+    "locations": ["Sungreet Strand", "Keeper's Bight"]
+  },
+  {
+    "name": "Ironbark Wood Pile",
+    "slug": "ironbark-wood-pile",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 85,
+    "trivialSkill": 135,
+    "results": ["Ironbark Wood", "Resin"],
+    "locations": ["Sungreet Strand", "Keeper's Bight"]
+  },
+  {
+    "name": "Rich Ironbark Wood Pile",
+    "slug": "rich-ironbark-wood-pile",
+    "tradeskill": "Lumberjacking",
+    "trivialSkill": 150,
+    "results": ["Ironbark Wood", "Resin"],
+    "locations": ["Sungreet Strand"],
+    "note": "Min skill only given as a floor on the source table: \">92\"."
+  },
+  {
+    "name": "Golden Palm Wood Pile",
+    "slug": "golden-palm-wood-pile",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 110,
+    "trivialSkill": 160,
+    "results": ["Golden Palm Wood", "Resin"],
+    "locations": ["Sungreet Strand"]
+  },
+  {
+    "name": "Rich Golden Palm Wood Pile",
+    "slug": "rich-golden-palm-wood-pile",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 125,
+    "trivialSkill": 175,
+    "results": ["Golden Palm Wood", "Resin"],
+    "locations": ["Sungreet Strand"]
+  },
+  {
+    "name": "Whisperpine Wood Pile",
+    "slug": "whisperpine-wood-pile",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 60,
+    "trivialSkill": 110,
+    "results": ["Whisperpine Wood", "Resin"],
+    "locations": ["Keeper's Bight"]
+  },
+  {
+    "name": "Rich Whisperpine Wood Pile",
+    "slug": "rich-whisperpine-wood-pile",
+    "tradeskill": "Lumberjacking",
+    "minSkill": 75,
+    "results": ["Whisperpine Wood", "Resin"],
+    "locations": ["Keeper's Bight"],
+    "note": "Trivial only given as a floor on the source table: \"110+\"."
+  },
+  {
+    "name": "Raw Whitefish",
+    "slug": "raw-whitefish",
+    "tradeskill": "Fishing",
+    "minSkill": 1,
+    "locations": ["Night Harbor", "Evershade Weald", "Shallow Shoals"],
+    "rarity": "Common",
+    "baitRequired": "No at fishing skill 50"
+  },
+  {
+    "name": "Raw Basa",
+    "slug": "raw-basa",
+    "tradeskill": "Fishing",
+    "minSkill": 1,
+    "locations": ["Night Harbor", "Evershade Weald", "Shallow Shoals"],
+    "rarity": "Uncommon",
+    "baitRequired": "No"
+  },
+  {
+    "name": "Raw Grouper",
+    "slug": "raw-grouper",
+    "tradeskill": "Fishing",
+    "minSkill": 1,
+    "locations": ["Night Harbor", "Evershade Weald", "Shallow Shoals"],
+    "rarity": "Uncommon",
+    "baitRequired": "No at fishing skill 75"
+  },
+  {
+    "name": "Raw Bay Crab",
+    "slug": "raw-bay-crab",
+    "tradeskill": "Fishing",
+    "locations": ["Night Harbor", "Evershade Weald", "Shallow Shoals"],
+    "rarity": "Rare",
+    "baitRequired": "?",
+    "note": "Fishing skill required not yet known — the source table shows \"???\"."
+  },
+  {
+    "name": "Raw Thorn Sturgeon",
+    "slug": "raw-thorn-sturgeon",
+    "tradeskill": "Fishing",
+    "locations": ["Night Harbor", "Evershade Weald"],
+    "rarity": "Very Rare",
+    "baitRequired": "?",
+    "note": "Fishing skill required not yet known — the source table shows \"???\"."
+  },
+  {
+    "name": "Raw Tide Minnow",
+    "slug": "raw-tide-minnow",
+    "tradeskill": "Fishing",
+    "locations": ["Shallow Shoals"],
+    "baitRequired": "No at fishing skill 100",
+    "note": "Fishing skill required not yet known — the source table shows \"???\"."
+  },
+  {
+    "name": "Deep Sea Devourer",
+    "slug": "deep-sea-devourer",
+    "tradeskill": "Fishing",
+    "locations": ["Shallow Shoals"],
+    "rarity": "Very Rare",
+    "baitRequired": "?",
+    "note": "Fishing skill required only given as an uncertain value on the source table: \"95?\"."
+  },
+  {
+    "name": "Lionleaf",
+    "slug": "lionleaf",
+    "image": "images/gathering/lionleaf.jpg",
+    "tradeskill": "Herbalism",
+    "minSkill": 1,
+    "trivialSkill": 15,
+    "locations": ["Evershade Weald", "Night Harbor", "Shaded Dunes"]
+  },
+  {
+    "name": "Ghost Poppy",
+    "slug": "ghost-poppy",
+    "image": "images/gathering/ghost-poppy.jpg",
+    "tradeskill": "Herbalism",
+    "minSkill": 1,
+    "trivialSkill": 20,
+    "locations": ["Night Harbor", "Shaded Dunes", "Evershade Weald", "Sungreet Strand"]
+  },
+  {
+    "name": "Selstie Kelp",
+    "slug": "selstie-kelp",
+    "tradeskill": "Herbalism",
+    "minSkill": 1,
+    "locations": ["Evershade Weald"],
+    "note": "Needed for the Bard Starter Quest (Faelindral); no observed skill-ups from harvesting. Trivial only given as a floor on the source table: \">20\"."
+  },
+  {
+    "name": "Sylvine",
+    "slug": "sylvine",
+    "tradeskill": "Herbalism",
+    "minSkill": 1,
+    "trivialSkill": 30,
+    "locations": ["Evershade Weald"]
+  },
+  {
+    "name": "Nomad's Grace",
+    "slug": "nomads-grace",
+    "image": "images/gathering/nomads-grace.jpg",
+    "tradeskill": "Herbalism",
+    "minSkill": 10,
+    "trivialSkill": 45,
+    "locations": ["Evershade Weald", "Shaded Dunes", "Sungreet Strand"]
+  },
+  {
+    "name": "Whispering Sage",
+    "slug": "whispering-sage",
+    "image": "images/gathering/whispering-sage.jpg",
+    "tradeskill": "Herbalism",
+    "minSkill": 15,
+    "trivialSkill": 65,
+    "locations": ["Evershade Weald", "Shaded Dunes"]
+  },
+  {
+    "name": "Ironroot",
+    "slug": "ironroot",
+    "image": "images/gathering/ironroot.jpg",
+    "tradeskill": "Herbalism",
+    "minSkill": 30,
+    "trivialSkill": 80,
+    "locations": ["Shaded Dunes", "Sungreet Strand"]
+  },
+  {
+    "name": "Moonveil",
+    "slug": "moonveil",
+    "tradeskill": "Herbalism",
+    "minSkill": 35,
+    "locations": ["Evershade Weald", "Keeper's Bight", "Shallow Shoals"],
+    "note": "Only spawns at night, at 6pm in-game. Trivial is somewhere between 77 and 88 (exact value unknown) — shown as \"88>?>77\" on the source table."
+  },
+  {
+    "name": "Stranglevine",
+    "slug": "stranglevine",
+    "tradeskill": "Herbalism",
+    "minSkill": 55,
+    "trivialSkill": 105,
+    "locations": ["Fallen Pass"],
+    "image": "images/gathering/stranglevine.jpg"
+  },
+  {
+    "name": "Duneleaf",
+    "slug": "duneleaf",
+    "image": "images/gathering/duneleaf.jpg",
+    "tradeskill": "Herbalism",
+    "minSkill": 90,
+    "trivialSkill": 140,
+    "locations": ["Shaded Dunes", "Sungreet Strand"]
+  },
+  {
+    "name": "Gadolvine",
+    "slug": "gadolvine",
+    "image": "images/gathering/gadolvine.jpg",
+    "tradeskill": "Herbalism",
+    "minSkill": 80,
+    "trivialSkill": 125,
+    "locations": ["Fallen Pass", "Shallow Shoals"],
+    "note": "Grows underwater. In the water at Southern Beach, near invisible Smuggler Lookouts."
+  },
+  {
+    "name": "Dragon's Vigil",
+    "slug": "dragons-vigil",
+    "tradeskill": "Herbalism",
+    "minSkill": 110,
+    "trivialSkill": 160,
+    "locations": ["Evershade Weald", "Keeper's Bight"]
+  },
+  {
+    "name": "Stygian Moss",
+    "slug": "stygian-moss",
+    "tradeskill": "Herbalism",
+    "minSkill": 125,
+    "trivialSkill": 175,
+    "locations": ["Sungreet Strand", "Fallen Pass"],
+    "note": "In the dwarven caves for Sungreet Strand, in the undead caves for Fallen Pass."
+  },
+  {
+    "name": "Shadeshroom",
+    "slug": "shadeshroom",
+    "tradeskill": "Herbalism",
+    "minSkill": 160,
+    "trivialSkill": 210,
+    "locations": ["Fallen Pass"]
+  },
+  {
+    "name": "Magebloom",
+    "slug": "magebloom",
+    "tradeskill": "Herbalism",
+    "minSkill": 150,
+    "trivialSkill": 200,
+    "locations": ["Shaded Dunes", "Fallen Pass", "Glass Flats"]
+  },
+  {
+    "name": "Last Breath",
+    "slug": "last-breath",
+    "tradeskill": "Herbalism",
+    "minSkill": 170,
+    "trivialSkill": 220,
+    "locations": ["Fallen Pass", "Glass Flats"],
+    "note": "In Glass Flats at the large bone graveyard."
+  },
+  {
+    "name": "Witherweed",
+    "slug": "witherweed",
+    "tradeskill": "Herbalism",
+    "minSkill": 185,
+    "trivialSkill": 235,
+    "locations": ["Glass Flats"]
+  },
+  {
+    "name": "Ethtongue",
+    "slug": "ethtongue",
+    "tradeskill": "Herbalism",
+    "minSkill": 200,
+    "trivialSkill": 250,
+    "locations": ["Shallow Shoals", "Scarwood"]
+  },
+  {
+    "name": "Phoenix Flower",
+    "slug": "phoenix-flower",
+    "tradeskill": "Herbalism",
+    "minSkill": 215,
+    "trivialSkill": 265,
+    "locations": ["Fallen Pass", "Glass Flats"]
+  },
+  {
+    "name": "Flamestalk",
+    "slug": "flamestalk",
+    "tradeskill": "Herbalism",
+    "trivialSkill": 250,
+    "locations": ["Vale of Zintar"],
+    "note": "In Giant City. Min skill given only as an uncertain value on the source table: \"250?\"."
+  },
+  {
+    "name": "Unidentified Herb (Blue Lily)",
+    "slug": "unidentified-herb-blue-lily",
+    "image": "images/gathering/unidentified-herb-blue-lily.jpg",
+    "tradeskill": "Herbalism",
+    "locations": [],
+    "note": "Spotted in-game but not yet identified — no other details (skill, location) recorded yet. The screenshot is the only identifying info until a name/location/skill comes in.",
+    "needsInfo": true
+  },
+  {
+    "name": "Grub",
+    "slug": "grub",
+    "tradeskill": "Foraging",
+    "minSkill": 1,
+    "locations": []
+  },
+  {
+    "name": "Multhele Root",
+    "slug": "multhele-root",
+    "tradeskill": "Foraging",
+    "minSkill": 1,
+    "locations": []
+  },
+  {
+    "name": "Wild Carrots",
+    "slug": "wild-carrots",
+    "tradeskill": "Foraging",
+    "minSkill": 1,
+    "locations": []
+  }
+]

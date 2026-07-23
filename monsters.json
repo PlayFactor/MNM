@@ -1,0 +1,2741 @@
+[
+  {
+    "name": "a desert bat",
+    "slug": "a-desert-bat",
+    "image": "images/Monsters/a-desert-bat.jpg",
+    "maps": ["Night Harbor", "Sungreet Strand"],
+    "areas": ["Necropolis", "North Gate", "West Gate"],
+    "drops": [
+      { "item": "Bat Wing" },
+      { "item": "Raw Bat Meat" },
+      { "item": "Bat Fur" },
+      { "item": "Bat Eye" }
+    ]
+  },
+  {
+    "name": "a large rat",
+    "slug": "a-large-rat",
+    "image": "images/Monsters/a-large-rat.jpg",
+    "maps": ["Night Harbor", "Sungreet Strand"],
+    "areas": ["Necropolis", "North Gate", "West Gate"],
+    "levelRange": "1",
+    "drops": [
+      { "item": "Raw Rat Meat" },
+      { "item": "Rat Ear" },
+      { "item": "Rat Tooth" },
+      { "item": "Burrow Hide Pants" },
+      { "item": "Rat Foot" }
+    ]
+  },
+  {
+    "name": "a young crypt scarab",
+    "slug": "a-young-crypt-scarab",
+    "image": "images/Monsters/a-young-crypt-scarab.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["Necropolis"],
+    "levelRange": "2",
+    "drops": [
+      { "item": "Crypt Scarab Eye" },
+      { "item": "Crypt Scarab Leg" }
+    ]
+  },
+  {
+    "name": "a crypt scarab",
+    "slug": "a-crypt-scarab",
+    "image": "images/Monsters/a-crypt-scarab.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["Necropolis", "North Gate"],
+    "drops": [
+      { "item": "Crypt Scarab Leg" }
+    ]
+  },
+  {
+    "name": "a rotting skeleton",
+    "slug": "a-rotting-skeleton",
+    "image": "images/Monsters/a-rotting-skeleton.jpg",
+    "maps": ["Night Harbor", "Sungreet Strand"],
+    "areas": ["Necropolis", "West Gate"],
+    "levelRange": "1",
+    "drops": [
+      { "item": "Bone Chips" },
+      { "item": "Skeleton Jawbone" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Cloth Scraps" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Rusty Great Scythe" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Dagger" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Tattered Cloth Veil" },
+      { "item": "Rusty Tower Shield" },
+      { "item": "Rusty Long Spear" },
+      { "item": "Shattered Skeleton Femur" }
+    ]
+  },
+  {
+    "name": "a Bloodynose quarreler",
+    "slug": "a-bloodynose-quarreler",
+    "drops": [
+      { "item": "Mushroom" },
+      { "item": "Cabbage" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Tattered Cloth Veil" }
+    ]
+  },
+  {
+    "name": "a Bloodynose sergeant",
+    "slug": "a-bloodynose-sergeant",
+    "drops": [
+      { "item": "Tomato" }
+    ]
+  },
+  {
+    "name": "Night Terror",
+    "slug": "night-terror",
+    "named": true,
+    "image": "images/Monsters/night-terror.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["Necropolis"],
+    "drops": [
+      { "item": "Night Terror's Wing" },
+      { "item": "Adrullan: Online Adventures Design Document" }
+    ],
+    "relatedMonsters": [
+      { "label": "Desert Bat", "slug": "a-desert-bat" }
+    ]
+  },
+  {
+    "name": "a sly farmhand",
+    "slug": "a-sly-farmhand",
+    "image": "images/Monsters/a-sly-farmhand.jpg",
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Corroded Bronze Kite Shield" }
+    ]
+  },
+  {
+    "name": "a bone carver",
+    "slug": "a-bone-carver",
+    "needsInfo": true
+  },
+  {
+    "name": "an ashira warrior",
+    "slug": "an-ashira-warrior",
+    "image": "images/Monsters/an-ashira-warrior.jpg",
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Raw Ashira Meat" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Tattered Cloth Veil" },
+      { "item": "Ashira Warrior Pelt" },
+      { "item": "Ashira Warrior Necklace" },
+      { "item": "Ashira Warrior Bracer" },
+      { "item": "Onion" },
+      { "item": "Garlic" },
+      { "item": "Cabbage" },
+      { "item": "Tattered Rawhide Gorget" },
+      { "item": "Tattered Rawhide Belt" },
+      { "item": "Tattered Rawhide Mask" },
+      { "item": "Tattered Rawhide Gloves" },
+      { "item": "Tattered Rawhide Bracer" },
+      { "item": "Tattered Rawhide Boots" },
+      { "item": "Tattered Rawhide Vest" },
+      { "item": "Tattered Rawhide Shoulderpads" },
+      { "item": "Worn Buckler" },
+      { "item": "Worn Bow" },
+      { "item": "Torch" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Dagger" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Great Scythe" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty Tower Shield" },
+      { "item": "Rusty Long Spear" }
+    ]
+  },
+  {
+    "name": "an ashira lookout",
+    "slug": "an-ashira-lookout",
+    "drops": [
+      { "item": "Ashira Scout Necklace" },
+      { "item": "Ashira Tail" },
+      { "item": "Cloth Scraps" },
+      { "item": "Rawhide Scraps" },
+      { "item": "Raw Ashira Meat" },
+      { "item": "Bell Pepper" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Dagger" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty Great Scythe" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty Tower Shield" },
+      { "item": "Rusty Long Spear" }
+    ]
+  },
+  {
+    "name": "a snake",
+    "slug": "a-snake",
+    "image": "images/Monsters/a-snake.jpg",
+    "maps": ["Sungreet Strand", "Night Harbor"],
+    "areas": ["North Gate", "West Gate"]
+  },
+  {
+    "name": "a jackal pup",
+    "slug": "a-jackal-pup",
+    "image": "images/Monsters/a-jackal-pup.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["West Gate"],
+    "drops": [
+      { "item": "Raw Jackal Meat" }
+    ]
+  },
+  {
+    "name": "the corrupted ashira",
+    "slug": "the-corrupted-ashira",
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Corrupted Leather Cap" },
+      { "item": "Corrupted Leather Mask" },
+      { "item": "Corrupted Leather Gorget" },
+      { "item": "Corrupted Leather Shoulderpads" },
+      { "item": "Corrupted Leather Cloak" },
+      { "item": "Corrupted Leather Tunic" },
+      { "item": "Corrupted Leather Robe" },
+      { "item": "Corrupted Leather Bracer" },
+      { "item": "Corrupted Leather Leggings" },
+      { "item": "Corrupted Leather Belt" },
+      { "item": "Corrupted Leather Gloves" },
+      { "item": "Corrupted Leather Boots" },
+      { "item": "Corrupted Leather Scraps" },
+      { "item": "Mace of Malice" },
+      { "item": "Ashira War Tooth" },
+      { "item": "Ashira Hunter Tooth" }
+    ]
+  },
+  {
+    "name": "Fernic the Cur",
+    "slug": "fernic-the-cur",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Desert Nomad Bracer" },
+      { "item": "Fernstalker's Sash" },
+      { "item": "Ironwood Shortsword" },
+      { "item": "Fernstep Greaves" },
+      { "item": "Ripped Leather Mask" }
+    ]
+  },
+  {
+    "name": "Onis the Elder",
+    "slug": "onis-the-elder",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Fang-Backed Boots" },
+      { "item": "Moonrise Staff" },
+      { "item": "Desert Nomad Treadwraps" },
+      { "item": "Ceremonial Plated Mantle" },
+      { "item": "Sekhara Manacles" }
+    ]
+  },
+  {
+    "name": "Hemalmula the Hunter",
+    "slug": "hemalmula-the-hunter",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Duneshoulder Pauldrons" },
+      { "item": "Duneseeker's Hood" },
+      { "item": "Dune Giant's Pendant" },
+      { "item": "Windstorm Moccasins" }
+    ]
+  },
+  {
+    "name": "Rami Al-Qawwaasr",
+    "slug": "rami-al-qawwaasr",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Vale Giant Shortbow" },
+      { "item": "Duneshaper's Ring" },
+      { "item": "Duneshaper's Sandals" },
+      { "item": "Vale-Giant Warshins" },
+      { "item": "Vale Giant Tunic" }
+    ]
+  },
+  {
+    "name": "Khal'Baar the Growler",
+    "slug": "khalbaar-the-growler",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Carved Spirit Totem" },
+      { "item": "Driftwood Crown" },
+      { "item": "Paua Shell Earring" }
+    ]
+  },
+  {
+    "name": "Hadir the Shipbreaker",
+    "slug": "hadir-the-shipbreaker",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Hadir's Iron Fist" },
+      { "item": "Hadir's Blade" },
+      { "item": "Shipbreaker Soft Wraps" },
+      { "item": "Sandcoated Belt" }
+    ]
+  },
+  {
+    "name": "Spicy Raziq",
+    "slug": "spicy-raziq",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Stirring Stick" },
+      { "item": "Polished Sandstone" },
+      { "item": "Scholar's Shoulderpads" }
+    ]
+  },
+  {
+    "name": "Seshena the Lost",
+    "slug": "seshena-the-lost",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Knotted Cudgel" },
+      { "item": "Embermoss Ring" },
+      { "item": "Chain Dervish Mantle" },
+      { "item": "Onyx Bat Figurine" },
+      { "item": "Desert Nomad Belt" }
+    ]
+  },
+  {
+    "name": "Chompers",
+    "slug": "chompers",
+    "named": true,
+    "maps": ["Shaded Dunes"],
+    "levelRange": "~16",
+    "drops": [
+      { "item": "Chompers's Tooth" },
+      { "item": "Chompers Hide Tunic" }
+    ]
+  },
+  {
+    "name": "Dhajr Spitemaw",
+    "slug": "dhajr-spitemaw",
+    "named": true,
+    "maps": ["Shaded Dunes"],
+    "levelRange": "8+",
+    "drops": [
+      { "item": "Claw of the Ashira Hunter" },
+      { "item": "Spitemaw's Ring" }
+    ]
+  },
+  {
+    "name": "Toma the Two-Faced",
+    "slug": "toma-the-two-faced",
+    "named": true,
+    "maps": ["Shaded Dunes"],
+    "areas": ["Smugglers Camp"],
+    "levelRange": "9+",
+    "drops": [
+      { "item": "Toma's Signet Ring" },
+      { "item": "Smuggler's Damaged Logbook" },
+      { "item": "Filthy Cloth Hood" },
+      { "item": "Smuggler's Greaves" },
+      { "item": "Cloth Scraps" },
+      { "item": "Torch" },
+      { "item": "Tattered Rawhide Gloves" },
+      { "item": "Tattered Rawhide Gorget" },
+      { "item": "Tattered Rawhide Belt" },
+      { "item": "Tattered Rawhide Mask" },
+      { "item": "Tattered Rawhide Bracer" },
+      { "item": "Tattered Rawhide Boots" },
+      { "item": "Tattered Rawhide Vest" },
+      { "item": "Tattered Rawhide Shoulderpads" }
+    ]
+  },
+  {
+    "name": "Yezkiel the Gatekeeper",
+    "slug": "yezkiel-the-gatekeeper",
+    "named": true,
+    "maps": ["Shaded Dunes"],
+    "levelRange": "20+",
+    "drops": [
+      { "item": "Dark Buckler" },
+      { "item": "Sindr's Horn" },
+      { "item": "Dark Tower Shield" },
+      { "item": "Grimoire of Demonology" }
+    ]
+  },
+  {
+    "name": "Maleq",
+    "slug": "maleq",
+    "named": true,
+    "maps": ["Shaded Dunes"],
+    "levelRange": "~40",
+    "drops": [
+      { "item": "Giant Fire Wedding Ring" },
+      { "item": "Sand Giant's Napkin" },
+      { "item": "Maleq's Toothpick" },
+      { "item": "Sand-Blasted Coif" },
+      { "item": "Duneshaper Gauntlets" }
+    ]
+  },
+  {
+    "name": "a shimmering shadow",
+    "slug": "a-shimmering-shadow",
+    "named": true,
+    "maps": ["Shaded Dunes"],
+    "levelRange": "~30",
+    "drops": [
+      { "item": "Shimmering Shadow Veil" },
+      { "item": "Moonwhisper Knot" },
+      { "item": "Shimmering Scimitar" },
+      { "item": "Umbracast Greaves" }
+    ]
+  },
+  {
+    "name": "Noel Klares",
+    "slug": "noel-klares",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Noel Klares' Ring" }
+    ]
+  },
+  {
+    "name": "a pale lieutenant",
+    "slug": "a-pale-lieutenant",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Ironhide Girdle" },
+      { "item": "Ironhide Bracers" }
+    ]
+  },
+  {
+    "name": "Captain Caspian",
+    "slug": "captain-caspian",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Moonveil Bracer" },
+      { "item": "Thirstbound Grips" }
+    ]
+  },
+  {
+    "name": "Manciple Daphne",
+    "slug": "manciple-daphne",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Charmweaver Robe" },
+      { "item": "Echo Stone" }
+    ]
+  },
+  {
+    "name": "a cunning privateer",
+    "slug": "a-cunning-privateer",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Dirty Pirate Earring" }
+    ]
+  },
+  {
+    "name": "Grubbfist",
+    "slug": "grubbfist",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Grubbfist's Smasher" },
+      { "item": "Grubbfist's Filthy Mantle" }
+    ]
+  },
+  {
+    "name": "Victualler Veera",
+    "slug": "victualler-veera",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Phantom Stein" },
+      { "item": "Twilight Cap" }
+    ]
+  },
+  {
+    "name": "Cormac Renshaw",
+    "slug": "cormac-renshaw",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Ragged Leather Gloves" },
+      { "item": "Seafarer's Shroud" },
+      { "item": "Seafarer's Hide Boots" }
+    ]
+  },
+  {
+    "name": "Eamon Kassir",
+    "slug": "eamon-kassir",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Savage Heartplate" },
+      { "item": "Heartplate Scout Cap" },
+      { "item": "Sturdy Battle Axe" }
+    ]
+  },
+  {
+    "name": "an ashira scout",
+    "slug": "an-ashira-scout",
+    "image": "images/Monsters/an-ashira-scout.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["North Gate"],
+    "drops": [
+      { "item": "Multhele Root" },
+      { "item": "Ashira Scout Necklace" }
+    ]
+  },
+  {
+    "name": "a dunes scarab",
+    "slug": "a-dunes-scarab",
+    "image": "images/Monsters/a-dunes-scarab.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["North Gate"]
+  },
+  {
+    "name": "a fire beetle",
+    "slug": "a-fire-beetle",
+    "image": "images/Monsters/a-fire-beetle.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["North Gate"]
+  },
+  {
+    "name": "a curious jackal",
+    "slug": "a-curious-jackal",
+    "image": "images/Monsters/a-curious-jackal.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["North Gate"]
+  },
+  {
+    "name": "an exiled researcher",
+    "slug": "an-exiled-researcher",
+    "image": "images/Monsters/an-exiled-researcher.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["North Gate"],
+    "drops": [
+      { "item": "Rusty Great Scythe" },
+      { "item": "Chipped Bloodstone" },
+      { "item": "Rusty Dagger" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty Tower Shield" },
+      { "item": "Rusty Long Spear" }
+    ]
+  },
+  {
+    "name": "a grave robber",
+    "slug": "a-grave-robber",
+    "image": "images/Monsters/a-grave-robber.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["North Gate"],
+    "drops": [
+      { "item": "Cracked Staff" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Garlic" },
+      { "item": "Rawhide Scraps" },
+      { "item": "Torch" },
+      { "item": "Tattered Rawhide Belt" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Raw Human Meat" },
+      { "item": "Cloth Scraps" },
+      { "item": "Tattered Rawhide Mask" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Veil" },
+      { "item": "Tattered Rawhide Gorget" },
+      { "item": "Tattered Rawhide Gloves" },
+      { "item": "Tattered Rawhide Bracer" },
+      { "item": "Tattered Rawhide Boots" },
+      { "item": "Tattered Rawhide Vest" },
+      { "item": "Tattered Rawhide Shoulderpads" },
+      { "item": "Rusty Dagger" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty Great Scythe" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty Tower Shield" },
+      { "item": "Rusty Long Spear" }
+    ]
+  },
+  {
+    "name": "a spiderling",
+    "slug": "a-spiderling",
+    "image": "images/Monsters/a-spiderling.jpg",
+    "maps": ["Night Harbor", "Sungreet Strand"],
+    "areas": ["North Gate", "West Gate"]
+  },
+  {
+    "name": "a disgraced friar",
+    "slug": "a-disgraced-friar",
+    "image": "images/Monsters/a-disgraced-friar.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["North Gate"],
+    "drops": [
+      { "item": "Rusty Kite Shield" },
+      { "item": "Potato" },
+      { "item": "Tattered Rawhide Belt" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Raw Human Meat" },
+      { "item": "Note from Ariblast" },
+      { "item": "Cheese" },
+      { "item": "Worn Buckler" },
+      { "item": "Tattered Rawhide Gorget" },
+      { "item": "Tattered Rawhide Mask" },
+      { "item": "Tattered Rawhide Gloves" },
+      { "item": "Tattered Rawhide Bracer" },
+      { "item": "Tattered Rawhide Boots" },
+      { "item": "Tattered Rawhide Vest" },
+      { "item": "Rusty Dagger" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty Great Scythe" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty Tower Shield" },
+      { "item": "Rusty Long Spear" },
+      { "item": "Tattered Rawhide Shoulderpads" }
+    ]
+  },
+  {
+    "name": "a cultist",
+    "slug": "a-cultist",
+    "maps": ["Shaded Dunes"],
+    "drops": [
+      { "item": "Aashir's Journal Page 42" },
+      { "item": "Mushroom" }
+    ]
+  },
+  {
+    "name": "a risen commander",
+    "slug": "a-risen-commander",
+    "image": "images/Monsters/a-risen-commander.jpg",
+    "maps": ["Shaded Dunes"]
+  },
+  {
+    "name": "a risen thaumaturgist",
+    "slug": "a-risen-thaumaturgist",
+    "image": "images/Monsters/a-risen-thaumaturgist.jpg",
+    "maps": ["Shaded Dunes"],
+    "drops": [
+      { "item": "Worn Fine Wood Bow" },
+      { "item": "Corroded Bronze Shortsword" },
+      { "item": "Wool Scraps" }
+    ]
+  },
+  {
+    "name": "a rattlesnake",
+    "slug": "a-rattlesnake",
+    "image": "images/Monsters/a-rattlesnake.jpg",
+    "maps": ["Shaded Dunes", "Sungreet Strand"]
+  },
+  {
+    "name": "a giant spider",
+    "slug": "a-giant-spider",
+    "image": "images/Monsters/a-giant-spider.jpg",
+    "maps": ["Shaded Dunes", "Sungreet Strand"]
+  },
+  {
+    "name": "a sickened ashira",
+    "slug": "a-sickened-ashira",
+    "image": "images/Monsters/a-sickened-ashira.jpg",
+    "maps": ["Shaded Dunes"]
+  },
+  {
+    "name": "a skeleton",
+    "slug": "a-skeleton",
+    "image": "images/Monsters/a-skeleton.jpg",
+    "maps": ["Shaded Dunes", "Night Harbor"],
+    "areas": ["North Gate"]
+  },
+  {
+    "name": "a restless ghoul",
+    "slug": "a-restless-ghoul",
+    "image": "images/Monsters/a-restless-ghoul.jpg",
+    "maps": ["Fallen Pass"]
+  },
+  {
+    "name": "a large crypt broodmatron",
+    "slug": "a-large-crypt-broodmatron",
+    "named": true,
+    "image": "images/Monsters/a-large-crypt-broodmatron.jpg",
+    "maps": ["Ancient Crypt"],
+    "areas": ["Infected Crypt"]
+  },
+  {
+    "name": "a crypt broodmother",
+    "slug": "a-crypt-broodmother",
+    "named": true,
+    "maps": ["Ancient Crypt"],
+    "areas": ["Infected Crypt"],
+    "drops": [
+      { "item": "Broodwarden Carapace" }
+    ]
+  },
+  {
+    "name": "a stumbling zombie",
+    "slug": "a-stumbling-zombie",
+    "image": "images/Monsters/a-stumbling-zombie.jpg",
+    "maps": ["Shaded Dunes"],
+    "drops": [
+      { "item": "Rawhide Scraps" },
+      { "item": "Vibroplasmic Residue" }
+    ]
+  },
+  {
+    "name": "a smuggler",
+    "slug": "a-smuggler",
+    "image": "images/Monsters/a-smuggler.jpg",
+    "maps": ["Shaded Dunes"],
+    "areas": ["Smugglers Camp"],
+    "drops": [
+      { "item": "Rusty Great Scythe" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Dagger" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Rusty Tower Shield" },
+      { "item": "Rusty Long Spear" }
+    ]
+  },
+  {
+    "name": "a wererat",
+    "slug": "a-wererat",
+    "image": "images/Monsters/a-wererat.jpg",
+    "maps": ["Shaded Dunes"],
+    "areas": ["Smugglers Camp"],
+    "drops": [
+      { "item": "Wererat Pelt" },
+      { "item": "Worn Bow" },
+      { "item": "Cloth Scraps" },
+      { "item": "Rawhide Scraps" },
+      { "item": "Severed Ring Finger" },
+      { "item": "Spirit World Ch. 1" },
+      { "item": "Tattered Rawhide Gorget" },
+      { "item": "Tattered Rawhide Belt" },
+      { "item": "Tattered Rawhide Mask" },
+      { "item": "Tattered Rawhide Gloves" },
+      { "item": "Tattered Rawhide Bracer" },
+      { "item": "Tattered Rawhide Boots" },
+      { "item": "Tattered Rawhide Vest" },
+      { "item": "Tattered Rawhide Shoulderpads" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Tattered Cloth Veil" },
+      { "item": "Rusty Great Scythe" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Dagger" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Rusty Tower Shield" },
+      { "item": "Rusty Long Spear" }
+    ]
+  },
+  {
+    "name": "a crocodile",
+    "slug": "a-crocodile",
+    "image": "images/Monsters/a-crocodile.jpg",
+    "maps": ["Shaded Dunes", "Sungreet Strand"]
+  },
+  {
+    "name": "a caiman",
+    "slug": "a-caiman",
+    "image": "images/Monsters/a-caiman.jpg",
+    "maps": ["Shaded Dunes", "Sungreet Strand"]
+  },
+  {
+    "name": "a blister beetle",
+    "slug": "a-blister-beetle",
+    "image": "images/Monsters/a-blister-beetle.jpg",
+    "maps": ["Night Harbor", "Sungreet Strand"],
+    "areas": ["West Gate"]
+  },
+  {
+    "name": "a cemetery rat",
+    "slug": "a-cemetery-rat",
+    "image": "images/Monsters/a-cemetery-rat.jpg",
+    "maps": ["Night Harbor"],
+    "areas": ["North Gate"]
+  },
+  {
+    "name": "a large dunes bat",
+    "slug": "a-large-dunes-bat",
+    "image": "images/Monsters/a-large-dunes-bat.jpg",
+    "maps": ["Night Harbor", "Shaded Dunes"],
+    "areas": ["North Gate"]
+  },
+  {
+    "name": "a giant fire beetle",
+    "slug": "a-giant-fire-beetle",
+    "image": "images/Monsters/a-giant-fire-beetle.jpg",
+    "maps": ["Sungreet Strand"]
+  },
+  {
+    "name": "a ghost",
+    "slug": "a-ghost",
+    "image": "images/Monsters/a-ghost.jpg",
+    "maps": ["Sungreet Strand"]
+  },
+  {
+    "name": "a smarmy hunter",
+    "slug": "a-smarmy-hunter",
+    "image": "images/Monsters/a-smarmy-hunter.jpg",
+    "maps": ["Sungreet Strand"]
+  },
+  {
+    "name": "a giant dunes scarab",
+    "slug": "a-giant-dunes-scarab",
+    "image": "images/Monsters/a-giant-dunes-scarab.jpg",
+    "maps": ["Sungreet Strand"]
+  },
+  {
+    "name": "a palm hunter",
+    "slug": "a-palm-hunter",
+    "image": "images/Monsters/a-palm-hunter.jpg"
+  },
+  {
+    "name": "an ashira shaman",
+    "slug": "an-ashira-shaman",
+    "image": "images/Monsters/an-ashira-shaman.jpg",
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Lemon" },
+      { "item": "Onion" }
+    ]
+  },
+  {
+    "name": "a hired thug",
+    "slug": "a-hired-thug",
+    "image": "images/Monsters/a-hired-thug.jpg",
+    "maps": ["Sungreet Strand"]
+  },
+  {
+    "name": "a water elementaling",
+    "slug": "a-water-elementaling",
+    "image": "images/Monsters/a-water-elementaling.jpg",
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Elemental Core" }
+    ]
+  },
+  {
+    "name": "a filthy acolyte",
+    "slug": "a-filthy-acolyte",
+    "image": "images/Monsters/a-filthy-acolyte.jpg",
+    "maps": ["Sungreet Strand"]
+  },
+  {
+    "name": "an angered spirit",
+    "slug": "an-angered-spirit",
+    "image": "images/Monsters/an-angered-spirit.jpg",
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Tattered Cloth Veil" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Worn Bow" },
+      { "item": "Onion" }
+    ]
+  },
+  {
+    "name": "a bandit",
+    "slug": "a-bandit",
+    "image": "images/Monsters/a-bandit.jpg",
+    "maps": ["Sungreet Strand"]
+  },
+  {
+    "name": "a willowisp",
+    "slug": "a-willowisp",
+    "image": "images/Monsters/a-willowisp.jpg",
+    "maps": ["Shaded Dunes"]
+  },
+  {
+    "name": "a Dustrend priest",
+    "slug": "a-dustrend-priest",
+    "image": "images/Monsters/a-dustrend-priest.jpg",
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Corroded Bronze Axe" },
+      { "item": "Corroded Bronze Scythe" },
+      { "item": "Corroded Bronze Shortsword" },
+      { "item": "Corroded Bronze Battle Axe" },
+      { "item": "Corroded Bronze Longsword" },
+      { "item": "Corroded Bronze Dagger" },
+      { "item": "Corroded Bronze Trident" },
+      { "item": "Corroded Bronze Maul" },
+      { "item": "Corroded Bronze Great Scythe" },
+      { "item": "Corroded Bronze Scimitar" },
+      { "item": "Corroded Bronze Greatsword" },
+      { "item": "Corroded Bronze Long Spear" },
+      { "item": "Corroded Bronze Tower Shield" },
+      { "item": "Corroded Bronze Kite Shield" },
+      { "item": "Corroded Bronze Plate Collar" },
+      { "item": "Corroded Bronze Plate Boots" },
+      { "item": "Corroded Bronze Chain Gloves" },
+      { "item": "Corroded Bronze Chain Waistguard" },
+      { "item": "Corroded Bronze Chain Mask" }
+    ]
+  },
+  {
+    "name": "a Dustrend foot soldier",
+    "slug": "a-dustrend-foot-soldier",
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Corroded Bronze Longsword" },
+      { "item": "Corroded Bronze Chain Mask" },
+      { "item": "Corroded Bronze Kite Shield" },
+      { "item": "Worn Fine Wood Bow" },
+      { "item": "Cooked Orc Meat" },
+      { "item": "Corroded Bronze Shortsword" },
+      { "item": "Corroded Bronze Scythe" },
+      { "item": "Corroded Bronze Battle Axe" },
+      { "item": "Corroded Bronze Axe" },
+      { "item": "Corroded Bronze Dagger" },
+      { "item": "Corroded Bronze Trident" },
+      { "item": "Corroded Bronze Maul" },
+      { "item": "Corroded Bronze Great Scythe" },
+      { "item": "Corroded Bronze Scimitar" },
+      { "item": "Corroded Bronze Greatsword" },
+      { "item": "Corroded Bronze Long Spear" },
+      { "item": "Corroded Bronze Tower Shield" },
+      { "item": "Corroded Bronze Plate Collar" },
+      { "item": "Corroded Bronze Plate Boots" },
+      { "item": "Corroded Bronze Chain Gloves" },
+      { "item": "Corroded Bronze Chain Waistguard" }
+    ]
+  },
+  {
+    "name": "a skeletal priest",
+    "slug": "a-skeletal-priest",
+    "image": "images/Monsters/a-skeletal-priest.jpg",
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Bone Chips" },
+      { "item": "Eth-ur Arboreal Journal Page" },
+      { "item": "Cloth Scraps" }
+    ]
+  },
+  {
+    "name": "a skeletal warrior",
+    "slug": "a-skeletal-warrior",
+    "image": "images/Monsters/a-skeletal-warrior.jpg",
+    "maps": ["Tomb of the Last Wyrmsbane"]
+  },
+  {
+    "name": "a skeletal cavalier",
+    "slug": "a-skeletal-cavalier",
+    "image": "images/Monsters/a-skeletal-cavalier.jpg",
+    "maps": ["Tomb of the Last Wyrmsbane"]
+  },
+  {
+    "name": "a skeletal cleric",
+    "slug": "a-skeletal-cleric",
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Worn Bow" },
+      { "item": "Tattered Rawhide Shoulderpads" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Tattered Cloth Veil" },
+      { "item": "Tattered Rawhide Gorget" },
+      { "item": "Tattered Rawhide Belt" },
+      { "item": "Tattered Rawhide Mask" },
+      { "item": "Tattered Rawhide Gloves" },
+      { "item": "Tattered Rawhide Bracer" },
+      { "item": "Tattered Rawhide Boots" },
+      { "item": "Tattered Rawhide Vest" }
+    ]
+  },
+  {
+    "name": "a skeletal marksman",
+    "slug": "a-skeletal-marksman",
+    "image": "images/Monsters/a-skeletal-marksman.jpg",
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Scorched Academy Folio" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Worn Bow" },
+      { "item": "Worn Buckler" },
+      { "item": "Tattered Rawhide Shoulderpads" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Tattered Cloth Veil" },
+      { "item": "Tattered Rawhide Gorget" },
+      { "item": "Tattered Rawhide Belt" },
+      { "item": "Tattered Rawhide Mask" },
+      { "item": "Tattered Rawhide Gloves" },
+      { "item": "Tattered Rawhide Bracer" },
+      { "item": "Tattered Rawhide Boots" },
+      { "item": "Tattered Rawhide Vest" }
+    ]
+  },
+  {
+    "name": "Gherhart Graves",
+    "slug": "gherhart-graves",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Suede Leather Mask" }
+    ]
+  },
+  {
+    "name": "a risen zombie",
+    "slug": "a-risen-zombie",
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Vibroplasmic Residue" },
+      { "item": "Rusty Dagger" },
+      { "item": "Apoptosis Journal Page" },
+      { "item": "Rusty Shortsword" },
+      { "item": "Rusty Throwing Dagger" },
+      { "item": "Rusty Axe" },
+      { "item": "Rusty Battle Axe" },
+      { "item": "Rusty Scimitar" },
+      { "item": "Rusty Scythe" },
+      { "item": "Rusty Longsword" },
+      { "item": "Rusty Spear" },
+      { "item": "Rusty Long Spear" },
+      { "item": "Rusty Trident" },
+      { "item": "Rusty Mace" },
+      { "item": "Rusty Warhammer" },
+      { "item": "Rusty Great Scythe" },
+      { "item": "Rusty War Lance" },
+      { "item": "Rusty Greatsword" },
+      { "item": "Rusty Maul" },
+      { "item": "Rusty Tower Shield" }
+    ]
+  },
+  {
+    "name": "High Marshal Fionna Bromm",
+    "slug": "high-marshal-fionna-bromm",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Kazessthra's Bane" }
+    ]
+  },
+  {
+    "name": "a Wyrmsbane crusader",
+    "slug": "a-wyrmsbane-crusader",
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Spectral Dust" },
+      { "item": "Cloth Scraps" }
+    ]
+  },
+  {
+    "name": "Timmon Bell",
+    "slug": "timmon-bell",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Holy Water" },
+      { "item": "Words of the Crusader Priest" },
+      { "item": "Crystallized Shard" },
+      { "item": "Bellkeeper's Sash" },
+      { "item": "Enchanted Battleworn Mace" },
+      { "item": "Knucklehide Chausses" },
+      { "item": "Wyrmsbane Clergy Rosary" }
+    ]
+  },
+  {
+    "name": "a skeletal knight",
+    "slug": "a-skeletal-knight",
+    "image": "images/Monsters/a-skeletal-knight.jpg"
+  },
+  {
+    "name": "a skeletal monk",
+    "slug": "a-skeletal-monk",
+    "image": "images/Monsters/a-skeletal-monk.jpg",
+    "drops": [
+      { "item": "Torch" },
+      { "item": "Cloth Scraps" },
+      { "item": "Rawhide Scraps" },
+      { "item": "Tattered Cloth Robe" },
+      { "item": "Tattered Cloth Cap" },
+      { "item": "Tattered Cloth Gorget" },
+      { "item": "Tattered Cloth Pantaloons" },
+      { "item": "Tattered Cloth Shirt" },
+      { "item": "Tattered Cloth Gloves" },
+      { "item": "Tattered Cloth Bracer" },
+      { "item": "Tattered Cloth Boots" },
+      { "item": "Tattered Cloth Veil" }
+    ]
+  },
+  {
+    "name": "Lieutenant Gregan Snyde",
+    "slug": "lieutenant-gregan-snyde",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Great Sword of the Dragon Crusader" },
+      { "item": "Spectral Dust" },
+      { "item": "Crystallized Shard" },
+      { "item": "Rawhide Scraps" },
+      { "item": "Lieutenant's Hunting Pants" },
+      { "item": "Lieutenant's Legplates" },
+      { "item": "Wyrmsbane Lieutenant's Medallion" }
+    ]
+  },
+  {
+    "name": "Quartermaster Boothroy",
+    "slug": "quartermaster-boothroy",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"]
+  },
+  {
+    "name": "Jakob Geffrey",
+    "slug": "jakob-geffrey",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Penitential Veil" },
+      { "item": "Ring of the Deacon" },
+      { "item": "Whispering Hours Pendant" }
+    ]
+  },
+  {
+    "name": "Bone Construct",
+    "slug": "bone-construct",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Chain of the Construct" },
+      { "item": "Giant Femur" },
+      { "item": "Idol of Bone" }
+    ]
+  },
+  {
+    "name": "Dario Numas",
+    "slug": "dario-numas",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Bow of the Fallen Ranger" },
+      { "item": "Dagger of the Damned" },
+      { "item": "Fallen Ranger Hide Bracers" }
+    ]
+  },
+  {
+    "name": "Ariblast the Wicked",
+    "slug": "ariblast-the-wicked",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Graverobber's Hood" },
+      { "item": "Moldering Robes" },
+      { "item": "Skeletal Sight" },
+      { "item": "Wicked Longbow" }
+    ]
+  },
+  {
+    "name": "Grandmaster Gildas",
+    "slug": "grandmaster-gildas",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Grandmaster's Dark Leather Hood" },
+      { "item": "Oak Wood Bo Staff" },
+      { "item": "Swift Brawler's Cloak" },
+      { "item": "Wyrmsbane Grandmaster's Earring" }
+    ]
+  },
+  {
+    "name": "Grandmaster Obadiah",
+    "slug": "grandmaster-obadiah",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Obadiah's Marchers" },
+      { "item": "Shawl of Piety" },
+      { "item": "Swift Brawler's Cloak" }
+    ]
+  },
+  {
+    "name": "Zakariah Shriki",
+    "slug": "zakariah-shriki",
+    "lastUpdated": "2026-07-18",
+    "named": true,
+    "maps": ["The Grain Cellar"],
+    "levelRange": "31",
+    "drops": [
+      { "item": "Grain Cellar Key" },
+      { "item": "Skeletal Mantle" },
+      { "item": "Shriki's Rivet-Boots" },
+      { "item": "Cotton Scraps" },
+      { "item": "Leather Scraps" },
+      { "item": "Rusty Iron Plate" },
+      { "item": "Tattered Cotton" }
+    ]
+  },
+  {
+    "name": "a priestess of Kravvin",
+    "slug": "a-priestess-of-kravvin",
+    "lastUpdated": "2026-07-18",
+    "named": true,
+    "maps": ["The Grain Cellar"],
+    "levelRange": "32",
+    "drops": [{ "item": "Dagger of Sacrifice" }]
+  },
+  {
+    "name": "Fariha bint Nizar",
+    "slug": "fariha-bint-nizar",
+    "lastUpdated": "2026-07-18",
+    "named": true,
+    "maps": ["The Grain Cellar"],
+    "drops": [{ "item": "Fariha's Shawl" }]
+  },
+  {
+    "name": "Khalid al-Bahri",
+    "slug": "khalid-al-bahri",
+    "lastUpdated": "2026-07-18",
+    "named": true,
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~34-35",
+    "drops": [{ "item": "Bloodsoaked Amulet" }]
+  },
+  {
+    "name": "Leila al-Bahri",
+    "slug": "leila-al-bahri",
+    "lastUpdated": "2026-07-18",
+    "named": true,
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~33-34",
+    "drops": [
+      { "item": "Garb of Sacrifice" },
+      { "item": "Enthralling Bracelet" }
+    ]
+  },
+  {
+    "name": "Rais Muzari",
+    "slug": "rais-muzari",
+    "lastUpdated": "2026-07-18",
+    "named": true,
+    "maps": ["The Grain Cellar"],
+    "levelRange": "32",
+    "drops": [
+      { "item": "Rusty Steel Plate Helm" },
+      { "item": "Spectral Helm" }
+    ]
+  },
+  {
+    "name": "a sneaky rat",
+    "slug": "a-sneaky-rat",
+    "lastUpdated": "2026-07-18",
+    "named": true,
+    "maps": ["The Grain Cellar"],
+    "levelRange": "30",
+    "drops": [
+      { "item": "Rat's Nest Greaves" },
+      { "item": "Burrow-Hide Pants" }
+    ]
+  },
+  {
+    "name": "a craven cultist",
+    "slug": "a-craven-cultist",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~31-32"
+  },
+  {
+    "name": "a devoted cultist",
+    "slug": "a-devoted-cultist",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~31-32"
+  },
+  {
+    "name": "a diminished ghost",
+    "slug": "a-diminished-ghost",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "31-32"
+  },
+  {
+    "name": "a ghostly cleric",
+    "slug": "a-ghostly-cleric",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~30-32"
+  },
+  {
+    "name": "a ghostly fighter",
+    "slug": "a-ghostly-fighter",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~30-32"
+  },
+  {
+    "name": "a ghostly figure",
+    "slug": "a-ghostly-figure",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~30-32"
+  },
+  {
+    "name": "a lingering ghost",
+    "slug": "a-lingering-ghost",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "31-32",
+    "drops": [{ "item": "Spectral Seal" }]
+  },
+  {
+    "name": "a nefarious cultist",
+    "slug": "a-nefarious-cultist",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~31-32",
+    "drops": [{ "item": "Dark Harvest" }]
+  },
+  {
+    "name": "a skeletal captive",
+    "slug": "a-skeletal-captive",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~31-32"
+  },
+  {
+    "name": "a skeletal farmer",
+    "slug": "a-skeletal-farmer",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~31-32"
+  },
+  {
+    "name": "a skeletal slave",
+    "slug": "a-skeletal-slave",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~31-32"
+  },
+  {
+    "name": "a skeletal worker",
+    "slug": "a-skeletal-worker",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "~30-32"
+  },
+  {
+    "name": "a wandering skeleton",
+    "slug": "a-wandering-skeleton",
+    "lastUpdated": "2026-07-18",
+    "maps": ["The Grain Cellar"],
+    "levelRange": "31-32"
+  },
+  {
+    "name": "Researcher Harseal",
+    "slug": "researcher-harseal",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Ancient Crypt"],
+    "drops": [{ "item": "Researcher's Protective Mitts" }]
+  },
+  {
+    "name": "Orbilis the Overseer",
+    "slug": "orbilis-the-overseer",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Blacktide Bay"],
+    "drops": [
+      { "item": "Black Greaves of the Eye" },
+      { "item": "Overseer's Gaze" }
+    ]
+  },
+  {
+    "name": "Gore",
+    "slug": "gore",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Blacktide Bay"],
+    "drops": [{ "item": "Gore's Stompers" }]
+  },
+  {
+    "name": "Taskmaster Murkraal",
+    "slug": "taskmaster-murkraal",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Blacktide Bay"],
+    "drops": [
+      { "item": "Drillmaster's Tread" },
+      { "item": "Filth-Covered Slaver's Boots" },
+      { "item": "Korgar's Fury" },
+      { "item": "Murkraal's Legwraps" },
+      { "item": "Quillcuff Wraps" },
+      { "item": "The Taskmaster's Leggings" }
+    ]
+  },
+  {
+    "name": "Commander Mangles",
+    "slug": "commander-mangles",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Ancient Crypt"],
+    "levelRange": "20",
+    "drops": [
+      { "item": "Commander's Cloak" },
+      { "item": "The Mangler" }
+    ]
+  },
+  {
+    "name": "Acolyte of Visru",
+    "slug": "acolyte-of-visru",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Blacktide Bay"],
+    "drops": [{ "item": "Visru's Chain" }]
+  },
+  {
+    "name": "Skyseer Illya",
+    "slug": "skyseer-illya",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Ancient Crypt"],
+    "levelRange": "25",
+    "drops": [{ "item": "Orb of the Fading Flame" }]
+  },
+  {
+    "name": "Blood Puppet",
+    "slug": "blood-puppet",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Shaded Dunes"],
+    "drops": [
+      { "item": "Seal of Blood Magic" },
+      { "item": "Still-Beating Heart" }
+    ]
+  },
+  {
+    "name": "a Dustrend legionary",
+    "slug": "a-dustrend-legionary",
+    "lastUpdated": "2026-07-19",
+    "drops": [{ "item": "Rusty Iron Plate Collar" }]
+  },
+  {
+    "name": "Librarian Gallier",
+    "slug": "librarian-gallier",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Ancient Crypt"],
+    "levelRange": "16",
+    "drops": [
+      { "item": "Charred Transcripts" },
+      { "item": "Medallion of the Ninth Flame" },
+      { "item": "Robe of the Undying Scholar" }
+    ]
+  },
+  {
+    "name": "Gerhardt Graves",
+    "slug": "gerhardt-graves",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Tomb of the Last Wyrmsbane"],
+    "drops": [
+      { "item": "Drakeling Skewer" },
+      { "item": "Suede Leather Mask" }
+    ]
+  },
+  {
+    "name": "Admiral Blacktide",
+    "slug": "admiral-blacktide",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Blacktide Bay"],
+    "drops": [
+      { "item": "Admiral's Cuirass" },
+      { "item": "Blacktide Sabatons" },
+      { "item": "Tidewalker Slippers" }
+    ]
+  },
+  {
+    "name": "Enraged Fire Elemental",
+    "slug": "enraged-fire-elemental",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Ancient Crypt"],
+    "drops": [
+      { "item": "Acolyte Mantle of Ashes" },
+      { "item": "Acolyte Robe of Ashes" },
+      { "item": "Burnt Rune Staff" },
+      { "item": "Scapular Acolyte Hood of Ashes" }
+    ]
+  },
+  {
+    "name": "Captain Kruush",
+    "slug": "captain-kruush",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Blacktide Bay"],
+    "drops": [
+      { "item": "Military Cuff" },
+      { "item": "Scarburn Clip" }
+    ]
+  },
+  {
+    "name": "Prince Mali'tik",
+    "slug": "prince-malitik",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Blacktide Bay"],
+    "drops": [{ "item": "Skri'Var Treads" }]
+  },
+  {
+    "name": "Commander Rursk",
+    "slug": "commander-rursk",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Blacktide Bay"],
+    "drops": [{ "item": "Duskswamp Wraps" }]
+  },
+  {
+    "name": "Brahson the Butcher",
+    "slug": "brahson-the-butcher",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Ancient Crypt"],
+    "drops": [{ "item": "Brahson's Cleaver" }]
+  },
+  {
+    "name": "Waterlord Lin'xa",
+    "slug": "waterlord-linxa",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sunken Resort"],
+    "drops": [{ "item": "Boots of Elemental Mastery" }]
+  },
+  {
+    "name": "Brightspark",
+    "slug": "brightspark",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Glinting Hollow"],
+    "drops": [{ "item": "Sparkfall Mantle" }]
+  },
+  {
+    "name": "Gazer",
+    "slug": "gazer",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Glinting Hollow"],
+    "drops": [{ "item": "Inquisitive Pendant" }]
+  },
+  {
+    "name": "Hrask",
+    "slug": "hrask",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Glinting Hollow"],
+    "drops": [{ "item": "Glacial Fists" }]
+  },
+  {
+    "name": "Softpaws",
+    "slug": "softpaws",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Glinting Hollow"],
+    "drops": [{ "item": "Wolfclaws" }]
+  },
+  {
+    "name": "Strig",
+    "slug": "strig",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Glinting Hollow"],
+    "drops": [
+      { "item": "Goblin Fang" },
+      { "item": "Grinning Mask" },
+      { "item": "Strig's Cuirass" }
+    ]
+  },
+  {
+    "name": "Sylvara Winterveil",
+    "slug": "sylvara-winterveil",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Glinting Hollow"],
+    "drops": [{ "item": "Dryadic Pendant" }]
+  },
+  {
+    "name": "Thornbark",
+    "slug": "thornbark",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Glinting Hollow"],
+    "drops": [
+      { "item": "Barkweave Mask" },
+      { "item": "Thornbark Bracer" },
+      { "item": "Thornbark Mantle" }
+    ]
+  },
+  {
+    "name": "Bloatbelly",
+    "slug": "bloatbelly",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Grimtide Sanctum"],
+    "drops": [
+      { "item": "Bloated Seal" },
+      { "item": "Mask of the Drowned" }
+    ]
+  },
+  {
+    "name": "Braggla The Spawnkeeper",
+    "slug": "braggla-the-spawnkeeper",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Grimtide Sanctum"],
+    "drops": [
+      { "item": "Mantle of the Sharkmother" },
+      { "item": "Ring of the Razobrood" },
+      { "item": "Sharkmother Trousers" },
+      { "item": "Stitched Scrap Vambraces" }
+    ]
+  },
+  {
+    "name": "Devourhymn Glomenda",
+    "slug": "devourhymn-glomenda",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Grimtide Sanctum"],
+    "drops": [
+      { "item": "Hydrophone Drum" },
+      { "item": "Mawchant Leather Mantle" },
+      { "item": "Mawchant Rite Vest" }
+    ]
+  },
+  {
+    "name": "Silent Nirra",
+    "slug": "silent-nirra",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Grimtide Sanctum"],
+    "drops": [
+      { "item": "Echoless Leggings" },
+      { "item": "Whisperless Veil" }
+    ]
+  },
+  {
+    "name": "Tidecaller Selka",
+    "slug": "tidecaller-selka",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Grimtide Sanctum"],
+    "drops": [
+      { "item": "Spear of The Drowned" },
+      { "item": "Tidecaller's Rituals" }
+    ]
+  },
+  {
+    "name": "Venomfang",
+    "slug": "venomfang",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Grimtide Sanctum"],
+    "drops": [{ "item": "Serpentscale Belt" }]
+  },
+  {
+    "name": "Vesska The Bloodbound",
+    "slug": "vesska-the-bloodbound",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Grimtide Sanctum"],
+    "drops": [
+      { "item": "Faceguard of the Torturer" },
+      { "item": "Torturer's Thorn Shoulders" },
+      { "item": "Vesska's Thorn" }
+    ]
+  },
+  {
+    "name": "Dregath Warwake",
+    "slug": "dregath-warwake",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Scarwood"],
+    "drops": [
+      { "item": "Giant's Chain" },
+      { "item": "Mireguard" },
+      { "item": "Obscure Broadsword" },
+      { "item": "Rimeflesh Spaulders" }
+    ]
+  },
+  {
+    "name": "Garran Grinholdt",
+    "slug": "garran-grinholdt",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Scarwood"],
+    "drops": [
+      { "item": "Bracer of the Redmark Pact" },
+      { "item": "Grinholdt's Showpiece" },
+      { "item": "Ravine-Woven Bracers" },
+      { "item": "Redmark Spaulders" },
+      { "item": "Thistlefire Lantern" }
+    ]
+  },
+  {
+    "name": "Krev Thistlehook",
+    "slug": "krev-thistlehook",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Scarwood"],
+    "drops": [
+      { "item": "Hunting Longbow" },
+      { "item": "Pocket Knife" }
+    ]
+  },
+  {
+    "name": "Krothun Veincarver",
+    "slug": "krothun-veincarver",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Scarwood"],
+    "drops": [{ "item": "Giant's Loincloth" }]
+  },
+  {
+    "name": "Teyla Beastbound",
+    "slug": "teyla-beastbound",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Scarwood"],
+    "drops": [{ "item": "Wildbinder's Spear" }]
+  },
+  {
+    "name": "Thorne Grindholdt",
+    "slug": "thorne-grindholdt",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Scarwood"],
+    "drops": [
+      { "item": "Bandit Chain Boots" },
+      { "item": "Raiders' Rimeplates" },
+      { "item": "Tanned Sinew Bracers" }
+    ]
+  },
+  {
+    "name": "Witherwood",
+    "slug": "witherwood",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Scarwood"],
+    "drops": [{ "item": "Ghostlimb Staff" }]
+  },
+  {
+    "name": "Yurl Rootrender",
+    "slug": "yurl-rootrender",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Scarwood"],
+    "drops": [
+      { "item": "Corrupted Scout Gloves" },
+      { "item": "Mirebloom Choker" },
+      { "item": "Rootrender's Stave" },
+      { "item": "Voice of the Land Sabatons" }
+    ]
+  },
+  {
+    "name": "Kyros Emeraldscale",
+    "slug": "kyros-emeraldscale",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [
+      { "item": "Drakeling Cuffs" },
+      { "item": "Emeraldscale Talonboots" }
+    ]
+  },
+  {
+    "name": "Meluli Dawnglow",
+    "slug": "meluli-dawnglow",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [{ "item": "Dawnglow Gossamer Vest" }]
+  },
+  {
+    "name": "Misteress Naelira",
+    "slug": "misteress-naelira",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [
+      { "item": "Beguiler's Tunic" },
+      { "item": "Grips of the Deep Enchantress" },
+      { "item": "Mask of the Mistress" }
+    ]
+  },
+  {
+    "name": "Rotmuzzle",
+    "slug": "rotmuzzle",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [
+      { "item": "Foamstalker's Trinket" },
+      { "item": "Frostmaw" },
+      { "item": "Gloves of the Rotting Hound" },
+      { "item": "Moonlit Scruff" },
+      { "item": "Rabid Hide Wristguards" }
+    ]
+  },
+  {
+    "name": "Scout Grimgaze",
+    "slug": "scout-grimgaze",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [
+      { "item": "Ironbind Gauntlets" },
+      { "item": "Luminous Runestaff" },
+      { "item": "Ridgeland Stud" },
+      { "item": "Tanned Redstalker Hide" },
+      { "item": "Wanderer's Leggings" }
+    ]
+  },
+  {
+    "name": "Scout Leader Krindor",
+    "slug": "scout-leader-krindor",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [
+      { "item": "Krindor's Hunting Bow" },
+      { "item": "Krindor's Wristguard" }
+    ]
+  },
+  {
+    "name": "Tearesh Deathcharmer",
+    "slug": "tearesh-deathcharmer",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [
+      { "item": "Black Widow Sickle" },
+      { "item": "Deathcharmer's Masquerade" },
+      { "item": "Mana Bloodstone" },
+      { "item": "Necrostar Cape" },
+      { "item": "The Wrekronomicon" }
+    ]
+  },
+  {
+    "name": "Vorkuul Blighteye",
+    "slug": "vorkuul-blighteye",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [{ "item": "Diseased Wolf Mantle" }]
+  },
+  {
+    "name": "Wavecaller Hydronysa",
+    "slug": "wavecaller-hydronysa",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Evershade Weald"],
+    "drops": [{ "item": "Wavecaller's Pendant" }]
+  },
+  {
+    "name": "Belthakar Dunecaller",
+    "slug": "belthakar-dunecaller",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Desert Trinket" },
+      { "item": "Girdle of the Dunecaller" },
+      { "item": "Mantle of the Windcaller" },
+      { "item": "Saltworn Sabatons" },
+      { "item": "Sandstorm Seal" }
+    ]
+  },
+  {
+    "name": "Brak'zul Bonecarver",
+    "slug": "brakzul-bonecarver",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Bonecarver's Shank" },
+      { "item": "Brazier Visor" },
+      { "item": "Butcher's Shoulder Cloth" }
+    ]
+  },
+  {
+    "name": "Brukk Goldgut",
+    "slug": "brukk-goldgut",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Boulderbreaker Axe" },
+      { "item": "Boulderbreaker Scythe" },
+      { "item": "Goldgut Harness" }
+    ]
+  },
+  {
+    "name": "Darvok Skullbender",
+    "slug": "darvok-skullbender",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Oiled Tracker Shoulders" },
+      { "item": "Templar Iron Fists" },
+      { "item": "Temple-Forged Aegis" }
+    ]
+  },
+  {
+    "name": "Fendris The Forsaken",
+    "slug": "fendris-the-forsaken",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Debtcarver" },
+      { "item": "Leggings of Reckoning" },
+      { "item": "Vest of Shattered Duty" }
+    ]
+  },
+  {
+    "name": "Mirella Nighthorn",
+    "slug": "mirella-nighthorn",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Darkened Chain Shawl" },
+      { "item": "Nighthorn's Shadowmantle" },
+      { "item": "Nighthorn's Thimbleguard" },
+      { "item": "Runed Spellward Shield" }
+    ]
+  },
+  {
+    "name": "Poacher Garrus",
+    "slug": "poacher-garrus",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [{ "item": "Boots of Vengeful Resolve" }]
+  },
+  {
+    "name": "Poacher Wilna",
+    "slug": "poacher-wilna",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [{ "item": "Wilna's Ring" }]
+  },
+  {
+    "name": "Ranger Rylin",
+    "slug": "ranger-rylin",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [{ "item": "High Keeper's Vambrace" }]
+  },
+  {
+    "name": "Rarthan Wartide",
+    "slug": "rarthan-wartide",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Cloak of the Last Stand" },
+      { "item": "Darkened Iron Greaves" },
+      { "item": "Wartide Gauntlets" }
+    ]
+  },
+  {
+    "name": "Redpaw",
+    "slug": "redpaw",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Den Dweller's Boots" },
+      { "item": "Furrowed Mask" },
+      { "item": "Mantle of the Untamed Beast" },
+      { "item": "Redpaw Battle Drum" }
+    ]
+  },
+  {
+    "name": "Sangrel Arcanist",
+    "slug": "sangrel-arcanist",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [{ "item": "Sangrel Ring of the Arcanist" }]
+  },
+  {
+    "name": "Sangrel Entangler",
+    "slug": "sangrel-entangler",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [{ "item": "Sangrel Ring of the Entangler" }]
+  },
+  {
+    "name": "Sangrel Shadowblade",
+    "slug": "sangrel-shadowblade",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [{ "item": "Sangrel Ring of the Shadowblade" }]
+  },
+  {
+    "name": "Sangrel Striker",
+    "slug": "sangrel-striker",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [{ "item": "Sangrel Ring of the Striker" }]
+  },
+  {
+    "name": "Thoren Blackwood",
+    "slug": "thoren-blackwood",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Blackwood Plating" },
+      { "item": "Bloodstained Cloak" },
+      { "item": "Darla's Heirloom Pendant" }
+    ]
+  },
+  {
+    "name": "Timberfang",
+    "slug": "timberfang",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "levelRange": "26",
+    "drops": [
+      { "item": "Cinch of the Forest Howler" },
+      { "item": "Fangbite Dirk" },
+      { "item": "Fur-Lined Gloves" }
+    ]
+  },
+  {
+    "name": "Widow Vethra",
+    "slug": "widow-vethra",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Keeper's Bight"],
+    "drops": [
+      { "item": "Deadwood Silk Bracer" },
+      { "item": "Eggshell Greaves" },
+      { "item": "Fang of the Recluse" },
+      { "item": "Ring of the Pauper" },
+      { "item": "Vethra's Figurine" },
+      { "item": "Widow's Veil" }
+    ]
+  },
+  {
+    "name": "Aquarris The River Watcher",
+    "slug": "aquarris-the-river-watcher",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [{ "item": "Riverwatch Mantle" }]
+  },
+  {
+    "name": "Balindor Silvertrowel",
+    "slug": "balindor-silvertrowel",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Vindicator Breastplate" },
+      { "item": "Vindicator Greaves" }
+    ]
+  },
+  {
+    "name": "Best Appraiser Bibic",
+    "slug": "best-appraiser-bibic",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Bangled Bracer of Importance" },
+      { "item": "Bibic's Hunt Wraps" },
+      { "item": "Boots of Certainty" },
+      { "item": "Very Powerful Hammer" }
+    ]
+  },
+  {
+    "name": "Bree Weatherstoll",
+    "slug": "bree-weatherstoll",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Heartwood Buckler" },
+      { "item": "Heartwood Root" }
+    ]
+  },
+  {
+    "name": "Cinder Herald",
+    "slug": "cinder-herald",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Cinder Beetle Horn" },
+      { "item": "Favor of the Queen" }
+    ]
+  },
+  {
+    "name": "Dizzik",
+    "slug": "dizzik",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Dented Platinum Coin Pendant" },
+      { "item": "Dizzik's Wicked Dagger" }
+    ]
+  },
+  {
+    "name": "Elias Messing",
+    "slug": "elias-messing",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [{ "item": "Blued Steel Long Sword" }]
+  },
+  {
+    "name": "Ember",
+    "slug": "ember",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [{ "item": "Bonebreakers" }]
+  },
+  {
+    "name": "Frightweaver",
+    "slug": "frightweaver",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "levelRange": "25",
+    "drops": [
+      { "item": "Eggspinner's Cuffs" },
+      { "item": "Frightweaver Robe" },
+      { "item": "Frightwoven Cape" },
+      { "item": "Sphalerite Spider Figurine" }
+    ]
+  },
+  {
+    "name": "Ixelda Jackalfang",
+    "slug": "ixelda-jackalfang",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Skintaker Ritual Dagger" },
+      { "item": "Skintaker Spiritist Ring" }
+    ]
+  },
+  {
+    "name": "Klimpi The Feared",
+    "slug": "klimpi-the-feared",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Bracer of the Fallen Foe" },
+      { "item": "Broken Bone Earring" }
+    ]
+  },
+  {
+    "name": "Mercenary Lord Hrrush",
+    "slug": "mercenary-lord-hrrush",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Condottiere's Faceguard" },
+      { "item": "Hrrush's Ring" },
+      { "item": "Mindmesh Mail" },
+      { "item": "Pyrmos Browguard" }
+    ]
+  },
+  {
+    "name": "Nerguk",
+    "slug": "nerguk",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Bandit's Wristplates" },
+      { "item": "Bent Staff of Nerguk" },
+      { "item": "Nerguk's Onyx Studs" }
+    ]
+  },
+  {
+    "name": "Nizar Al-Harith",
+    "slug": "nizar-al-harith",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Bloodied Sickle" },
+      { "item": "Spectral Coif" }
+    ]
+  },
+  {
+    "name": "Rhakar Vexfang",
+    "slug": "rhakar-vexfang",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Ashira Sandstride Slippers" },
+      { "item": "Sand-Scored Leggings" },
+      { "item": "Vexfang Hood" },
+      { "item": "Vexfang Visor" }
+    ]
+  },
+  {
+    "name": "River Pirate Captain",
+    "slug": "river-pirate-captain",
+    "lastUpdated": "2026-07-19",
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Captain's Ring" },
+      { "item": "River Pirate Sash" }
+    ]
+  },
+  {
+    "name": "Tolman Sneed",
+    "slug": "tolman-sneed",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [
+      { "item": "Highwayman Wristraps" },
+      { "item": "Ravine Hauberk" },
+      { "item": "Sneed's Ambush Treads" },
+      { "item": "Sneed's Bauble" },
+      { "item": "Sneed's Cudgel" },
+      { "item": "Sneed's Cunning Gauntlets" }
+    ]
+  },
+  {
+    "name": "Warlord Muggrah",
+    "slug": "warlord-muggrah",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [{ "item": "Muggrah's Brazier Torc" }]
+  },
+  {
+    "name": "Zarek Dunewalk",
+    "slug": "zarek-dunewalk",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [{ "item": "Sandshroud Staff" }]
+  },
+  {
+    "name": "Servarator Vakraar",
+    "slug": "servarator-vakraar",
+    "lastUpdated": "2026-07-19",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "areas": ["Orc Caves"],
+    "drops": [
+      { "item": "Vestments of Vakraar" },
+      { "item": "Dustmaul Sash" },
+      { "item": "Dustmaul Pauldrons" },
+      { "item": "The Final Word" },
+      { "item": "Vakraar's Dustveil Hoop" }
+    ]
+  },
+  {
+    "name": "Vile Will",
+    "slug": "vile-will",
+    "named": true,
+    "maps": ["Sungreet Strand"],
+    "drops": [{ "item": "The Backup Plan" }]
+  },
+  {
+    "name": "Bloodfang",
+    "slug": "bloodfang",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Bloodfang Scale Shield" },
+      { "item": "Eye of Serpents" },
+      { "item": "Fang of the Serpent" }
+    ]
+  },
+  {
+    "name": "Dustrend Kennel Master",
+    "slug": "dustrend-kennel-master",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Kennel Master's Faceguard" },
+      { "item": "Leather Bracer of Obedience" }
+    ]
+  },
+  {
+    "name": "Grand Vizier Al'kithar",
+    "slug": "grand-vizier-alkithar",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Ancient Zintari Seal" },
+      { "item": "Gaze of Empire" },
+      { "item": "Grand Vizier's Coif" }
+    ]
+  },
+  {
+    "name": "King Mahraad",
+    "slug": "king-mahraad",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [{ "item": "Crown of King Mahraad" }]
+  },
+  {
+    "name": "Old Scar",
+    "slug": "old-scar",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [{ "item": "Stained Apostle's Cloak" }]
+  },
+  {
+    "name": "Sularfaan The Flamekeeper",
+    "slug": "sularfaan-the-flamekeeper",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Branded Platinum Wristguard" },
+      { "item": "Hammer of Elemental Forging" }
+    ]
+  },
+  {
+    "name": "Zubair Goldentongue",
+    "slug": "zubair-goldentongue",
+    "named": true,
+    "maps": ["Vale of Zintar"],
+    "drops": [
+      { "item": "Embezzler's Golden Kilt" },
+      { "item": "Wayfarer's Vambraces" },
+      { "item": "Whalebone Spear" }
+    ]
+  },
+  {
+    "name": "Animast Wafi",
+    "slug": "animast-wafi",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Chain Splitting Axe" },
+      { "item": "Chitonstep Greaves" },
+      { "item": "Chitonweave Breeches" },
+      { "item": "Claws of Bonding" },
+      { "item": "Scratched Armguards" }
+    ]
+  },
+  {
+    "name": "Ashir The Protector",
+    "slug": "ashir-the-protector",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Ashira Protector Axe" },
+      { "item": "Protector's Mask" },
+      { "item": "Shield of the Protector" }
+    ]
+  },
+  {
+    "name": "Ayip",
+    "slug": "ayip",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Ayip's Chopper" },
+      { "item": "Rat Bone Earring" },
+      { "item": "Rat Hide Jerkin" }
+    ]
+  },
+  {
+    "name": "Bloodynose Hag",
+    "slug": "bloodynose-hag",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Freaky Pantaloons" },
+      { "item": "Messy Voodoo Doll" }
+    ]
+  },
+  {
+    "name": "Duneseer Hadi",
+    "slug": "duneseer-hadi",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Braided Leather Belt" },
+      { "item": "Duneseer Soft Wraps" }
+    ]
+  },
+  {
+    "name": "Font Seeress Jumana",
+    "slug": "font-seeress-jumana",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Ring of Water" },
+      { "item": "Shawl of the Font Seeress" }
+    ]
+  },
+  {
+    "name": "Forge Master Jabbar",
+    "slug": "forge-master-jabbar",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [{ "item": "Forge-Hammer Steelboots" }]
+  },
+  {
+    "name": "General Overlord Bloodynose",
+    "slug": "general-overlord-bloodynose",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Cloak of the Bloodynose General" },
+      { "item": "Nose Bleeder" },
+      { "item": "Overlord's Plate Helm" },
+      { "item": "Ring of the Bloodynose Clan" }
+    ]
+  },
+  {
+    "name": "Hadhraman, First Among Alphas",
+    "slug": "hadhraman-first-among-alphas",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Amulet of the First" },
+      { "item": "Hadhraman's Maul" },
+      { "item": "Hadhraman's Ring" }
+    ]
+  },
+  {
+    "name": "Herbalist Qirfa",
+    "slug": "herbalist-qirfa",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Duskwrist Guard" },
+      { "item": "Earthened Gloves" },
+      { "item": "Sash of Herbs" },
+      { "item": "Scented Ceremonial Spear" }
+    ]
+  },
+  {
+    "name": "Luhum The Plump",
+    "slug": "luhum-the-plump",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Flesh Ripper" },
+      { "item": "Oven-Burned Bracers" }
+    ]
+  },
+  {
+    "name": "Nosey",
+    "slug": "nosey",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [{ "item": "Cotton Satchel" }]
+  },
+  {
+    "name": "Rami Suresight",
+    "slug": "rami-suresight",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Hip Quiver" },
+      { "item": "Serrated Longbow" },
+      { "item": "Suresight War Wraps" }
+    ]
+  },
+  {
+    "name": "Roa The Huntress",
+    "slug": "roa-the-huntress",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Huntress's Bow" },
+      { "item": "Stillglow Chausses" }
+    ]
+  },
+  {
+    "name": "Tanner Daba",
+    "slug": "tanner-daba",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [{ "item": "Bated Leather Leggings" }]
+  },
+  {
+    "name": "Thirsty Sharab",
+    "slug": "thirsty-sharab",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [{ "item": "Soaked Copper Bracer" }]
+  },
+  {
+    "name": "Whipstich Khayyat",
+    "slug": "whipstich-khayyat",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [{ "item": "Slick Black Pantaloons" }]
+  },
+  {
+    "name": "Yapala",
+    "slug": "yapala",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [
+      { "item": "Desert Ironfists" },
+      { "item": "Sandwalker's Leggings" },
+      { "item": "Tribal Spear" },
+      { "item": "Yapalan Veil" }
+    ]
+  },
+  {
+    "name": "Zalia The Fierce",
+    "slug": "zalia-the-fierce",
+    "named": true,
+    "maps": ["Tel Ekir"],
+    "drops": [{ "item": "Goblin Skin Mask" }]
+  },
+  {
+    "name": "Aide Aida",
+    "slug": "aide-aida",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Amulet of Wisdom" },
+      { "item": "Gilded Spellbook" },
+      { "item": "Sceptre of Wisdom" },
+      { "item": "Ward of Wisdom" }
+    ]
+  },
+  {
+    "name": "Darius Brask",
+    "slug": "darius-brask",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Bonebreaker Club" },
+      { "item": "Cognitive Wristguard" },
+      { "item": "Interrogator's Clasp" }
+    ]
+  },
+  {
+    "name": "Jailer Benedict",
+    "slug": "jailer-benedict",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Shadowstitch Handwraps" },
+      { "item": "Shadowstitch Leggings" }
+    ]
+  },
+  {
+    "name": "Jorvan Ironfist",
+    "slug": "jorvan-ironfist",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Faceguard of the Gladiator" },
+      { "item": "Gilded Claw of the Gladiator" },
+      { "item": "Mask of the Gladiator" }
+    ]
+  },
+  {
+    "name": "Mila Dastan",
+    "slug": "mila-dastan",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Mila's Kiss" },
+      { "item": "Ragged Leather Helm" }
+    ]
+  },
+  {
+    "name": "Pasha Patrice",
+    "slug": "pasha-patrice",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Gilded Claw Cloak" },
+      { "item": "Pasha's Blade" },
+      { "item": "Pasha's Favor" }
+    ]
+  },
+  {
+    "name": "Vikar Brask",
+    "slug": "vikar-brask",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [
+      { "item": "Battleforged Plate Belt" },
+      { "item": "Interrogator's Hood" },
+      { "item": "Ragged Leather Cloak" }
+    ]
+  },
+  {
+    "name": "Guard Atep",
+    "slug": "guard-atep",
+    "named": true,
+    "maps": ["Night Harbor"],
+    "drops": [{ "item": "The Impaler" }]
+  }
+]

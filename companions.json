@@ -1,0 +1,80 @@
+[
+  {
+    "name": "A Bear Companion",
+    "slug": "a-bear-companion",
+    "animal": "bear",
+    "observedAtLevel": 11,
+    "skills": [
+      {
+        "name": "Mighty Roar",
+        "type": "Martial Ability",
+        "description": "Roar mightily, increasing your maximum health by 10%.",
+        "castTime": "Instant",
+        "cooldown": "90.0 seconds"
+      }
+    ]
+  },
+  {
+    "name": "A Rat Companion",
+    "slug": "a-rat-companion",
+    "animal": "rat",
+    "observedAtLevel": 3,
+    "skills": [
+      {
+        "name": "Stealth",
+        "type": "Martial Ability",
+        "description": "Charge at your target, greatly increasing your movement speed for 5s.",
+        "castTime": "Instant",
+        "cooldown": "60.0 seconds"
+      }
+    ]
+  },
+  {
+    "name": "A Crocodile Companion",
+    "slug": "a-crocodile-companion",
+    "animal": "crocodile",
+    "observedAtLevel": 11,
+    "skills": [
+      {
+        "name": "Pin",
+        "type": "Martial Ability",
+        "description": "Pin your target in your jaws, preventing them from moving.",
+        "castTime": "Instant",
+        "cooldown": "10.0 seconds",
+        "range": "5 meters"
+      }
+    ]
+  },
+  {
+    "name": "A Spider Companion",
+    "slug": "a-spider-companion",
+    "animal": "spider",
+    "observedAtLevel": 12,
+    "skills": [
+      {
+        "name": "Anchoring Web",
+        "type": "Martial Ability",
+        "description": "Anchor your target to the ground with sticky webs for 10s. Damage has a moderate chance to break this effect.",
+        "castTime": "Instant",
+        "cooldown": "30.0 seconds",
+        "range": "30 meters"
+      }
+    ]
+  },
+  {
+    "name": "A Wolf Companion",
+    "slug": "a-wolf-companion",
+    "animal": "wolf",
+    "observedAtLevel": 12,
+    "skills": [
+      {
+        "name": "Canine Charge",
+        "type": "Martial Ability",
+        "description": "Charge at your target, greatly increasing your movement speed for 5s.",
+        "castTime": "Instant",
+        "cooldown": "60.0 seconds",
+        "range": "30 meters"
+      }
+    ]
+  }
+]
